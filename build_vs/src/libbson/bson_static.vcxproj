@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{829A916B-79F4-3513-9ECA-1FF25C9E1DBC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>bson_static</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\mongo-c-dirver_VS2019\build_vs\src\libbson\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">bson_static.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">bson-static-1.0</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\mongo-c-dirver_VS2019\build_vs\src\libbson\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">bson_static.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">bson-static-1.0</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\mongo-c-dirver_VS2019\build_vs\src\libbson\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">bson_static.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">bson-static-1.0</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\mongo-c-dirver_VS2019\build_vs\src\libbson\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">bson_static.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">bson-static-1.0</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\mongo-c-dirver_VS2019\src\libbson\src;E:\mongo-c-dirver_VS2019\build_vs\src\libbson\src;E:\mongo-c-dirver_VS2019\src\common;E:\mongo-c-dirver_VS2019\build_vs\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatSpecificWarningsAsErrors>4013;4431;4716;4113;4047;4090;4700</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;BSON_STATIC;BSON_COMPILATION;JSONSL_PARSE_NAN;MCOMMON_NAME_PREFIX=_bson_mcommon;_XOPEN_SOURCE=700;_BSD_SOURCE;_DEFAULT_SOURCE;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;BSON_STATIC;BSON_COMPILATION;JSONSL_PARSE_NAN;MCOMMON_NAME_PREFIX=_bson_mcommon;_XOPEN_SOURCE=700;_BSD_SOURCE;_DEFAULT_SOURCE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\mongo-c-dirver_VS2019\src\libbson\src;E:\mongo-c-dirver_VS2019\build_vs\src\libbson\src;E:\mongo-c-dirver_VS2019\src\common;E:\mongo-c-dirver_VS2019\build_vs\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\mongo-c-dirver_VS2019\src\libbson\src;E:\mongo-c-dirver_VS2019\build_vs\src\libbson\src;E:\mongo-c-dirver_VS2019\src\common;E:\mongo-c-dirver_VS2019\build_vs\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\mongo-c-dirver_VS2019\src\libbson\src;E:\mongo-c-dirver_VS2019\build_vs\src\libbson\src;E:\mongo-c-dirver_VS2019\src\common;E:\mongo-c-dirver_VS2019\build_vs\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatSpecificWarningsAsErrors>4013;4431;4716;4113;4047;4090;4700</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;BSON_STATIC;BSON_COMPILATION;JSONSL_PARSE_NAN;MCOMMON_NAME_PREFIX=_bson_mcommon;_XOPEN_SOURCE=700;_BSD_SOURCE;_DEFAULT_SOURCE;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;BSON_STATIC;BSON_COMPILATION;JSONSL_PARSE_NAN;MCOMMON_NAME_PREFIX=_bson_mcommon;_XOPEN_SOURCE=700;_BSD_SOURCE;_DEFAULT_SOURCE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\mongo-c-dirver_VS2019\src\libbson\src;E:\mongo-c-dirver_VS2019\build_vs\src\libbson\src;E:\mongo-c-dirver_VS2019\src\common;E:\mongo-c-dirver_VS2019\build_vs\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\mongo-c-dirver_VS2019\src\libbson\src;E:\mongo-c-dirver_VS2019\build_vs\src\libbson\src;E:\mongo-c-dirver_VS2019\src\common;E:\mongo-c-dirver_VS2019\build_vs\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\mongo-c-dirver_VS2019\src\libbson\src;E:\mongo-c-dirver_VS2019\build_vs\src\libbson\src;E:\mongo-c-dirver_VS2019\src\common;E:\mongo-c-dirver_VS2019\build_vs\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatSpecificWarningsAsErrors>4013;4431;4716;4113;4047;4090;4700</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;BSON_STATIC;BSON_COMPILATION;JSONSL_PARSE_NAN;MCOMMON_NAME_PREFIX=_bson_mcommon;_XOPEN_SOURCE=700;_BSD_SOURCE;_DEFAULT_SOURCE;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;BSON_STATIC;BSON_COMPILATION;JSONSL_PARSE_NAN;MCOMMON_NAME_PREFIX=_bson_mcommon;_XOPEN_SOURCE=700;_BSD_SOURCE;_DEFAULT_SOURCE;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\mongo-c-dirver_VS2019\src\libbson\src;E:\mongo-c-dirver_VS2019\build_vs\src\libbson\src;E:\mongo-c-dirver_VS2019\src\common;E:\mongo-c-dirver_VS2019\build_vs\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\mongo-c-dirver_VS2019\src\libbson\src;E:\mongo-c-dirver_VS2019\build_vs\src\libbson\src;E:\mongo-c-dirver_VS2019\src\common;E:\mongo-c-dirver_VS2019\build_vs\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\mongo-c-dirver_VS2019\src\libbson\src;E:\mongo-c-dirver_VS2019\build_vs\src\libbson\src;E:\mongo-c-dirver_VS2019\src\common;E:\mongo-c-dirver_VS2019\build_vs\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatSpecificWarningsAsErrors>4013;4431;4716;4113;4047;4090;4700</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;BSON_STATIC;BSON_COMPILATION;JSONSL_PARSE_NAN;MCOMMON_NAME_PREFIX=_bson_mcommon;_XOPEN_SOURCE=700;_BSD_SOURCE;_DEFAULT_SOURCE;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;BSON_STATIC;BSON_COMPILATION;JSONSL_PARSE_NAN;MCOMMON_NAME_PREFIX=_bson_mcommon;_XOPEN_SOURCE=700;_BSD_SOURCE;_DEFAULT_SOURCE;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\mongo-c-dirver_VS2019\src\libbson\src;E:\mongo-c-dirver_VS2019\build_vs\src\libbson\src;E:\mongo-c-dirver_VS2019\src\common;E:\mongo-c-dirver_VS2019\build_vs\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\mongo-c-dirver_VS2019\src\libbson\src;E:\mongo-c-dirver_VS2019\build_vs\src\libbson\src;E:\mongo-c-dirver_VS2019\src\common;E:\mongo-c-dirver_VS2019\build_vs\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\mongo-c-dirver_VS2019\src\libbson\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/mongo-c-dirver_VS2019/src/libbson/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\CMake\bin\cmake.exe -SE:/mongo-c-dirver_VS2019 -BE:/mongo-c-dirver_VS2019/build_vs --check-stamp-file E:/mongo-c-dirver_VS2019/build_vs/src/libbson/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CMake\share\cmake-3.30\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\CMake\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;D:\CMake\share\cmake-3.30\Modules\CPack.cmake;D:\CMake\share\cmake-3.30\Modules\CPackComponent.cmake;D:\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckCXXSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckFunctionExists.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFileCXX.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckStructHasMember.cmake;D:\CMake\share\cmake-3.30\Modules\CheckSymbolExists.cmake;D:\CMake\share\cmake-3.30\Modules\CheckTypeSize.cmake;D:\CMake\share\cmake-3.30\Modules\InstallRequiredSystemLibraries.cmake;D:\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\TestBigEndian.cmake;D:\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;D:\CMake\share\cmake-3.30\Templates\CPackConfig.cmake.in;E:\mongo-c-dirver_VS2019\build\cmake\LegacyPackage.cmake;E:\mongo-c-dirver_VS2019\build\cmake\libbson-1.0-config.cmake.in;E:\mongo-c-dirver_VS2019\build\cmake\libbson-static-1.0-config.cmake.in;E:\mongo-c-dirver_VS2019\build_vs\CMakeFiles\cmake.verify_globs;E:\mongo-c-dirver_VS2019\build_vs\src\libbson\_eval.tmp.cmake;E:\mongo-c-dirver_VS2019\src\libbson\libbson.rc.in;E:\mongo-c-dirver_VS2019\src\libbson\src\bson-config.cmake;E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-config.h.in;E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\mongo-c-dirver_VS2019\build_vs\src\libbson\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/mongo-c-dirver_VS2019/src/libbson/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\CMake\bin\cmake.exe -SE:/mongo-c-dirver_VS2019 -BE:/mongo-c-dirver_VS2019/build_vs --check-stamp-file E:/mongo-c-dirver_VS2019/build_vs/src/libbson/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CMake\share\cmake-3.30\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\CMake\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;D:\CMake\share\cmake-3.30\Modules\CPack.cmake;D:\CMake\share\cmake-3.30\Modules\CPackComponent.cmake;D:\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckCXXSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckFunctionExists.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFileCXX.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckStructHasMember.cmake;D:\CMake\share\cmake-3.30\Modules\CheckSymbolExists.cmake;D:\CMake\share\cmake-3.30\Modules\CheckTypeSize.cmake;D:\CMake\share\cmake-3.30\Modules\InstallRequiredSystemLibraries.cmake;D:\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\TestBigEndian.cmake;D:\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;D:\CMake\share\cmake-3.30\Templates\CPackConfig.cmake.in;E:\mongo-c-dirver_VS2019\build\cmake\LegacyPackage.cmake;E:\mongo-c-dirver_VS2019\build\cmake\libbson-1.0-config.cmake.in;E:\mongo-c-dirver_VS2019\build\cmake\libbson-static-1.0-config.cmake.in;E:\mongo-c-dirver_VS2019\build_vs\CMakeFiles\cmake.verify_globs;E:\mongo-c-dirver_VS2019\build_vs\src\libbson\_eval.tmp.cmake;E:\mongo-c-dirver_VS2019\src\libbson\libbson.rc.in;E:\mongo-c-dirver_VS2019\src\libbson\src\bson-config.cmake;E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-config.h.in;E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\mongo-c-dirver_VS2019\build_vs\src\libbson\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/mongo-c-dirver_VS2019/src/libbson/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\CMake\bin\cmake.exe -SE:/mongo-c-dirver_VS2019 -BE:/mongo-c-dirver_VS2019/build_vs --check-stamp-file E:/mongo-c-dirver_VS2019/build_vs/src/libbson/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CMake\share\cmake-3.30\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\CMake\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;D:\CMake\share\cmake-3.30\Modules\CPack.cmake;D:\CMake\share\cmake-3.30\Modules\CPackComponent.cmake;D:\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckCXXSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckFunctionExists.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFileCXX.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckStructHasMember.cmake;D:\CMake\share\cmake-3.30\Modules\CheckSymbolExists.cmake;D:\CMake\share\cmake-3.30\Modules\CheckTypeSize.cmake;D:\CMake\share\cmake-3.30\Modules\InstallRequiredSystemLibraries.cmake;D:\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\TestBigEndian.cmake;D:\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;D:\CMake\share\cmake-3.30\Templates\CPackConfig.cmake.in;E:\mongo-c-dirver_VS2019\build\cmake\LegacyPackage.cmake;E:\mongo-c-dirver_VS2019\build\cmake\libbson-1.0-config.cmake.in;E:\mongo-c-dirver_VS2019\build\cmake\libbson-static-1.0-config.cmake.in;E:\mongo-c-dirver_VS2019\build_vs\CMakeFiles\cmake.verify_globs;E:\mongo-c-dirver_VS2019\build_vs\src\libbson\_eval.tmp.cmake;E:\mongo-c-dirver_VS2019\src\libbson\libbson.rc.in;E:\mongo-c-dirver_VS2019\src\libbson\src\bson-config.cmake;E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-config.h.in;E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\mongo-c-dirver_VS2019\build_vs\src\libbson\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/mongo-c-dirver_VS2019/src/libbson/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\CMake\bin\cmake.exe -SE:/mongo-c-dirver_VS2019 -BE:/mongo-c-dirver_VS2019/build_vs --check-stamp-file E:/mongo-c-dirver_VS2019/build_vs/src/libbson/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CMake\share\cmake-3.30\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\CMake\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;D:\CMake\share\cmake-3.30\Modules\CPack.cmake;D:\CMake\share\cmake-3.30\Modules\CPackComponent.cmake;D:\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckCXXSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckFunctionExists.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFileCXX.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckStructHasMember.cmake;D:\CMake\share\cmake-3.30\Modules\CheckSymbolExists.cmake;D:\CMake\share\cmake-3.30\Modules\CheckTypeSize.cmake;D:\CMake\share\cmake-3.30\Modules\InstallRequiredSystemLibraries.cmake;D:\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\TestBigEndian.cmake;D:\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;D:\CMake\share\cmake-3.30\Templates\CPackConfig.cmake.in;E:\mongo-c-dirver_VS2019\build\cmake\LegacyPackage.cmake;E:\mongo-c-dirver_VS2019\build\cmake\libbson-1.0-config.cmake.in;E:\mongo-c-dirver_VS2019\build\cmake\libbson-static-1.0-config.cmake.in;E:\mongo-c-dirver_VS2019\build_vs\CMakeFiles\cmake.verify_globs;E:\mongo-c-dirver_VS2019\build_vs\src\libbson\_eval.tmp.cmake;E:\mongo-c-dirver_VS2019\src\libbson\libbson.rc.in;E:\mongo-c-dirver_VS2019\src\libbson\src\bson-config.cmake;E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-config.h.in;E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\mongo-c-dirver_VS2019\build_vs\src\libbson\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\mongo-c-dirver_VS2019\src\common\common-b64.c" />
+    <ClCompile Include="E:\mongo-c-dirver_VS2019\src\common\common-md5.c" />
+    <ClCompile Include="E:\mongo-c-dirver_VS2019\src\common\common-thread.c" />
+    <ClCompile Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bcon.c" />
+    <ClInclude Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bcon.h" />
+    <ClCompile Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-atomic.c" />
+    <ClInclude Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-atomic.h" />
+    <ClCompile Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-clock.c" />
+    <ClInclude Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-clock.h" />
+    <ClInclude Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-cmp.h" />
+    <ClInclude Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-compat.h" />
+    <ClInclude Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-context-private.h" />
+    <ClCompile Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-context.c" />
+    <ClInclude Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-context.h" />
+    <ClCompile Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-decimal128.c" />
+    <ClInclude Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-decimal128.h" />
+    <ClInclude Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-endian.h" />
+    <ClCompile Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-error.c" />
+    <ClInclude Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-error.h" />
+    <ClInclude Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-iso8601-private.h" />
+    <ClCompile Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-iso8601.c" />
+    <ClCompile Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-iter.c" />
+    <ClInclude Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-iter.h" />
+    <ClInclude Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-json-private.h" />
+    <ClCompile Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-json.c" />
+    <ClInclude Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-json.h" />
+    <ClCompile Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-keys.c" />
+    <ClInclude Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-keys.h" />
+    <ClInclude Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-macros.h" />
+    <ClCompile Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-md5.c" />
+    <ClInclude Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-md5.h" />
+    <ClCompile Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-memory.c" />
+    <ClInclude Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-memory.h" />
+    <ClCompile Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-oid.c" />
+    <ClInclude Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-oid.h" />
+    <ClInclude Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-prelude.h" />
+    <ClInclude Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-private.h" />
+    <ClCompile Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-reader.c" />
+    <ClInclude Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-reader.h" />
+    <ClCompile Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-string.c" />
+    <ClInclude Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-string.h" />
+    <ClInclude Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-timegm-private.h" />
+    <ClCompile Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-timegm.c" />
+    <ClInclude Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-types.h" />
+    <ClCompile Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-utf8.c" />
+    <ClInclude Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-utf8.h" />
+    <ClCompile Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-value.c" />
+    <ClInclude Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-value.h" />
+    <ClCompile Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-version-functions.c" />
+    <ClInclude Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-version-functions.h" />
+    <ClCompile Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-writer.c" />
+    <ClInclude Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-writer.h" />
+    <ClCompile Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson.c" />
+    <ClInclude Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson.h" />
+    <ClInclude Include="E:\mongo-c-dirver_VS2019\src\libbson\src\bson\forwarding\bson.h" />
+    <ClCompile Include="E:\mongo-c-dirver_VS2019\src\libbson\src\jsonsl\jsonsl.c" />
+    <ClInclude Include="E:\mongo-c-dirver_VS2019\src\libbson\src\jsonsl\jsonsl.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\ZERO_CHECK.vcxproj">
+      <Project>{E3B4350C-8543-3832-8893-B504EBFD5FBD}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

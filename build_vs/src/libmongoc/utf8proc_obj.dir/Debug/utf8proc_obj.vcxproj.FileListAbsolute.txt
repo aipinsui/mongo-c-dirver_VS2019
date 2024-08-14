@@ -1,0 +1,1 @@
+E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\utf8proc_obj.dir\Debug\utf8proc_obj.lib

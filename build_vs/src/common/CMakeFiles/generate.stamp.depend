@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+E:/mongo-c-dirver_VS2019/build/cmake/MongoC-Warnings.cmake
+E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/cmake.verify_globs
+E:/mongo-c-dirver_VS2019/src/common/CMakeLists.txt
+E:/mongo-c-dirver_VS2019/src/common/common-config.h.in

@@ -1,0 +1,1416 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2024/8/14 14:59:25。
+      节点 1 上的项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\3.30.2\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\3.30.2\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\3.30.2\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:00.98
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/3.30.2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-g88s3d"
+      binary: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-g88s3d"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/mongo-c-dirver_VS2019/build/cmake"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-g88s3d'
+        
+        Run Build Command(s): "d:/Microsoft Visual Studio 16.0/MSBuild/Current/Bin/MSBuild.exe" cmTC_03d11.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/8/14 14:59:26。
+        节点 1 上的项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-g88s3d\\cmTC_03d11.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_03d11.dir\\Debug\\”。
+          正在创建目录“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-g88s3d\\Debug\\”。
+          正在创建目录“cmTC_03d11.dir\\Debug\\cmTC_03d11.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_03d11.dir\\Debug\\cmTC_03d11.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_03d11.dir\\Debug\\\\" /Fd"cmTC_03d11.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CMakeCCompilerABI.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_03d11.dir\\Debug\\\\" /Fd"cmTC_03d11.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-g88s3d\\Debug\\cmTC_03d11.exe" /INCREMENTAL /ILK:"cmTC_03d11.dir\\Debug\\cmTC_03d11.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-g88s3d/Debug/cmTC_03d11.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-g88s3d/Debug/cmTC_03d11.lib" /MACHINE:X64  /machine:x64 cmTC_03d11.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_03d11.vcxproj -> E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-g88s3d\\Debug\\cmTC_03d11.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_03d11.dir\\Debug\\cmTC_03d11.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_03d11.dir\\Debug\\cmTC_03d11.tlog\\cmTC_03d11.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-g88s3d\\cmTC_03d11.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.55
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': d:/Microsoft Visual Studio 16.0/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Running the C compiler's linker: "d:/Microsoft Visual Studio 16.0/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30154.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "D:/CMake/share/cmake-3.30/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "D:/CMake/share/cmake-3.30/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:233 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-hvyvd0"
+      binary: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-hvyvd0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/mongo-c-dirver_VS2019/build/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-hvyvd0'
+        
+        Run Build Command(s): "d:/Microsoft Visual Studio 16.0/MSBuild/Current/Bin/MSBuild.exe" cmTC_7aee2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/8/14 14:59:27。
+        节点 1 上的项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-hvyvd0\\cmTC_7aee2.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_7aee2.dir\\Debug\\”。
+          正在创建目录“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-hvyvd0\\Debug\\”。
+          正在创建目录“cmTC_7aee2.dir\\Debug\\cmTC_7aee2.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_7aee2.dir\\Debug\\cmTC_7aee2.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7aee2.dir\\Debug\\\\" /Fd"cmTC_7aee2.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-hvyvd0\\src.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          src.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7aee2.dir\\Debug\\\\" /Fd"cmTC_7aee2.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-hvyvd0\\src.c"
+        E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-hvyvd0\\src.c(1,10): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-hvyvd0\\cmTC_7aee2.vcxproj]
+        已完成生成项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-hvyvd0\\cmTC_7aee2.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-hvyvd0\\cmTC_7aee2.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-hvyvd0\\src.c(1,10): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-hvyvd0\\cmTC_7aee2.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.36
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "D:/CMake/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "D:/CMake/share/cmake-3.30/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "CMakeLists.txt:233 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-luypum"
+      binary: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-luypum"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/mongo-c-dirver_VS2019/build/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-luypum'
+        
+        Run Build Command(s): "d:/Microsoft Visual Studio 16.0/MSBuild/Current/Bin/MSBuild.exe" cmTC_525da.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/8/14 14:59:28。
+        节点 1 上的项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-luypum\\cmTC_525da.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_525da.dir\\Debug\\”。
+          正在创建目录“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-luypum\\Debug\\”。
+          正在创建目录“cmTC_525da.dir\\Debug\\cmTC_525da.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_525da.dir\\Debug\\cmTC_525da.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_525da.dir\\Debug\\\\" /Fd"cmTC_525da.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-luypum\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckFunctionExists.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_525da.dir\\Debug\\\\" /Fd"cmTC_525da.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-luypum\\CheckFunctionExists.c"
+        Link:
+          d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-luypum\\Debug\\cmTC_525da.exe" /INCREMENTAL /ILK:"cmTC_525da.dir\\Debug\\cmTC_525da.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-luypum/Debug/cmTC_525da.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-luypum/Debug/cmTC_525da.lib" /MACHINE:X64  /machine:x64 cmTC_525da.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-luypum\\cmTC_525da.vcxproj]
+        已完成生成项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-luypum\\cmTC_525da.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-luypum\\cmTC_525da.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-luypum\\cmTC_525da.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.46
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "D:/CMake/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "D:/CMake/share/cmake-3.30/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "CMakeLists.txt:233 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-deg2qt"
+      binary: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-deg2qt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/mongo-c-dirver_VS2019/build/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-deg2qt'
+        
+        Run Build Command(s): "d:/Microsoft Visual Studio 16.0/MSBuild/Current/Bin/MSBuild.exe" cmTC_0e35a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/8/14 14:59:28。
+        节点 1 上的项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-deg2qt\\cmTC_0e35a.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_0e35a.dir\\Debug\\”。
+          正在创建目录“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-deg2qt\\Debug\\”。
+          正在创建目录“cmTC_0e35a.dir\\Debug\\cmTC_0e35a.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_0e35a.dir\\Debug\\cmTC_0e35a.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0e35a.dir\\Debug\\\\" /Fd"cmTC_0e35a.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-deg2qt\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckFunctionExists.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0e35a.dir\\Debug\\\\" /Fd"cmTC_0e35a.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-deg2qt\\CheckFunctionExists.c"
+        Link:
+          d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-deg2qt\\Debug\\cmTC_0e35a.exe" /INCREMENTAL /ILK:"cmTC_0e35a.dir\\Debug\\cmTC_0e35a.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-deg2qt/Debug/cmTC_0e35a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-deg2qt/Debug/cmTC_0e35a.lib" /MACHINE:X64  /machine:x64 cmTC_0e35a.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-deg2qt\\cmTC_0e35a.vcxproj]
+        已完成生成项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-deg2qt\\cmTC_0e35a.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-deg2qt\\cmTC_0e35a.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-deg2qt\\cmTC_0e35a.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.44
+        
+      exitCode: 1
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/CheckLanguage.cmake:133 (message)"
+      - "CMakeLists.txt:268 (check_language)"
+    checks:
+      - "Looking for a CXX compiler"
+    message: |
+      Looking for a CXX compiler passed with the following output:
+      -- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.19045.
+      -- The CXX compiler identification is MSVC 19.29.30154.0
+      -- Detecting CXX compiler ABI info
+      -- Detecting CXX compiler ABI info - done
+      -- Check for working CXX compiler: d:/Microsoft Visual Studio 16.0/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe - skipped
+      -- Detecting CXX compile features
+      -- Detecting CXX compile features - done
+      -- Configuring done (2.4s)
+      -- Generating done (0.0s)
+      -- Build files have been written to: E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CheckCXX
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:270 (enable_language)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: d:/Microsoft Visual Studio 16.0/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2024/8/14 14:59:32。
+      节点 1 上的项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\3.30.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\3.30.2\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\3.30.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:00.75
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/3.30.2/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:270 (enable_language)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-utun2w"
+      binary: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-utun2w"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/mongo-c-dirver_VS2019/build/cmake"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-utun2w'
+        
+        Run Build Command(s): "d:/Microsoft Visual Studio 16.0/MSBuild/Current/Bin/MSBuild.exe" cmTC_7935e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/8/14 14:59:33。
+        节点 1 上的项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-utun2w\\cmTC_7935e.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_7935e.dir\\Debug\\”。
+          正在创建目录“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-utun2w\\Debug\\”。
+          正在创建目录“cmTC_7935e.dir\\Debug\\cmTC_7935e.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_7935e.dir\\Debug\\cmTC_7935e.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7935e.dir\\Debug\\\\" /Fd"cmTC_7935e.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7935e.dir\\Debug\\\\" /Fd"cmTC_7935e.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-utun2w\\Debug\\cmTC_7935e.exe" /INCREMENTAL /ILK:"cmTC_7935e.dir\\Debug\\cmTC_7935e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-utun2w/Debug/cmTC_7935e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-utun2w/Debug/cmTC_7935e.lib" /MACHINE:X64  /machine:x64 cmTC_7935e.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_7935e.vcxproj -> E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-utun2w\\Debug\\cmTC_7935e.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_7935e.dir\\Debug\\cmTC_7935e.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_7935e.dir\\Debug\\cmTC_7935e.tlog\\cmTC_7935e.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-utun2w\\cmTC_7935e.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.54
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:270 (enable_language)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': d:/Microsoft Visual Studio 16.0/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "D:/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:270 (enable_language)"
+    message: |
+      Running the CXX compiler's linker: "d:/Microsoft Visual Studio 16.0/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30154.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "D:/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "src/libbson/CMakeLists.txt:93 (check_symbol_exists)"
+    checks:
+      - "Looking for snprintf"
+    directories:
+      source: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-hjevq7"
+      binary: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-hjevq7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/mongo-c-dirver_VS2019/build/cmake"
+    buildResult:
+      variable: "BSON_HAVE_SNPRINTF"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-hjevq7'
+        
+        Run Build Command(s): "d:/Microsoft Visual Studio 16.0/MSBuild/Current/Bin/MSBuild.exe" cmTC_a744a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/8/14 14:59:34。
+        节点 1 上的项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-hjevq7\\cmTC_a744a.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_a744a.dir\\Debug\\”。
+          正在创建目录“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-hjevq7\\Debug\\”。
+          正在创建目录“cmTC_a744a.dir\\Debug\\cmTC_a744a.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_a744a.dir\\Debug\\cmTC_a744a.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _XOPEN_SOURCE=700 /D _BSD_SOURCE /D _DEFAULT_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a744a.dir\\Debug\\\\" /Fd"cmTC_a744a.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-hjevq7\\CheckSymbolExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckSymbolExists.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _XOPEN_SOURCE=700 /D _BSD_SOURCE /D _DEFAULT_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a744a.dir\\Debug\\\\" /Fd"cmTC_a744a.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-hjevq7\\CheckSymbolExists.c"
+        Link:
+          d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-hjevq7\\Debug\\cmTC_a744a.exe" /INCREMENTAL /ILK:"cmTC_a744a.dir\\Debug\\cmTC_a744a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-hjevq7/Debug/cmTC_a744a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-hjevq7/Debug/cmTC_a744a.lib" /MACHINE:X64  /machine:x64 cmTC_a744a.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_a744a.vcxproj -> E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-hjevq7\\Debug\\cmTC_a744a.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_a744a.dir\\Debug\\cmTC_a744a.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_a744a.dir\\Debug\\cmTC_a744a.tlog\\cmTC_a744a.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-hjevq7\\cmTC_a744a.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.54
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/CMake/share/cmake-3.30/Modules/CheckSourceCompiles.cmake:77 (cmake_check_source_compiles)"
+      - "D:/CMake/share/cmake-3.30/Modules/CheckStructHasMember.cmake:77 (CHECK_SOURCE_COMPILES)"
+      - "src/libbson/CMakeLists.txt:95 (check_struct_has_member)"
+    checks:
+      - "Performing Test BSON_HAVE_TIMESPEC"
+    directories:
+      source: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-0bi44m"
+      binary: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-0bi44m"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/mongo-c-dirver_VS2019/build/cmake"
+    buildResult:
+      variable: "BSON_HAVE_TIMESPEC"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-0bi44m'
+        
+        Run Build Command(s): "d:/Microsoft Visual Studio 16.0/MSBuild/Current/Bin/MSBuild.exe" cmTC_9eb26.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/8/14 14:59:35。
+        节点 1 上的项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-0bi44m\\cmTC_9eb26.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_9eb26.dir\\Debug\\”。
+          正在创建目录“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-0bi44m\\Debug\\”。
+          正在创建目录“cmTC_9eb26.dir\\Debug\\cmTC_9eb26.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_9eb26.dir\\Debug\\cmTC_9eb26.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D BSON_HAVE_TIMESPEC /D _XOPEN_SOURCE=700 /D _BSD_SOURCE /D _DEFAULT_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9eb26.dir\\Debug\\\\" /Fd"cmTC_9eb26.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-0bi44m\\src.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          src.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D BSON_HAVE_TIMESPEC /D _XOPEN_SOURCE=700 /D _BSD_SOURCE /D _DEFAULT_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9eb26.dir\\Debug\\\\" /Fd"cmTC_9eb26.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-0bi44m\\src.c"
+        Link:
+          d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-0bi44m\\Debug\\cmTC_9eb26.exe" /INCREMENTAL /ILK:"cmTC_9eb26.dir\\Debug\\cmTC_9eb26.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-0bi44m/Debug/cmTC_9eb26.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-0bi44m/Debug/cmTC_9eb26.lib" /MACHINE:X64  /machine:x64 cmTC_9eb26.dir\\Debug\\src.obj
+          cmTC_9eb26.vcxproj -> E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-0bi44m\\Debug\\cmTC_9eb26.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_9eb26.dir\\Debug\\cmTC_9eb26.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_9eb26.dir\\Debug\\cmTC_9eb26.tlog\\cmTC_9eb26.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-0bi44m\\cmTC_9eb26.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.52
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "D:/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "src/libbson/CMakeLists.txt:97 (check_symbol_exists)"
+    checks:
+      - "Looking for gmtime_r"
+    directories:
+      source: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-khzvhm"
+      binary: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-khzvhm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/mongo-c-dirver_VS2019/build/cmake"
+    buildResult:
+      variable: "BSON_HAVE_GMTIME_R"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-khzvhm'
+        
+        Run Build Command(s): "d:/Microsoft Visual Studio 16.0/MSBuild/Current/Bin/MSBuild.exe" cmTC_cd2ca.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/8/14 14:59:36。
+        节点 1 上的项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-khzvhm\\cmTC_cd2ca.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_cd2ca.dir\\Debug\\”。
+          正在创建目录“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-khzvhm\\Debug\\”。
+          正在创建目录“cmTC_cd2ca.dir\\Debug\\cmTC_cd2ca.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_cd2ca.dir\\Debug\\cmTC_cd2ca.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _XOPEN_SOURCE=700 /D _BSD_SOURCE /D _DEFAULT_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cd2ca.dir\\Debug\\\\" /Fd"cmTC_cd2ca.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-khzvhm\\CheckSymbolExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckSymbolExists.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _XOPEN_SOURCE=700 /D _BSD_SOURCE /D _DEFAULT_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cd2ca.dir\\Debug\\\\" /Fd"cmTC_cd2ca.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-khzvhm\\CheckSymbolExists.c"
+        E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-khzvhm\\CheckSymbolExists.c(8,27): error C2065: “gmtime_r”: 未声明的标识符 [E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-khzvhm\\cmTC_cd2ca.vcxproj]
+        已完成生成项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-khzvhm\\cmTC_cd2ca.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-khzvhm\\cmTC_cd2ca.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-khzvhm\\CheckSymbolExists.c(8,27): error C2065: “gmtime_r”: 未声明的标识符 [E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-khzvhm\\cmTC_cd2ca.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.35
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "src/libbson/CMakeLists.txt:99 (check_function_exists)"
+    checks:
+      - "Looking for rand_r"
+    directories:
+      source: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-34e28v"
+      binary: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-34e28v"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/mongo-c-dirver_VS2019/build/cmake"
+    buildResult:
+      variable: "BSON_HAVE_RAND_R"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-34e28v'
+        
+        Run Build Command(s): "d:/Microsoft Visual Studio 16.0/MSBuild/Current/Bin/MSBuild.exe" cmTC_afbf9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/8/14 14:59:37。
+        节点 1 上的项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-34e28v\\cmTC_afbf9.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_afbf9.dir\\Debug\\”。
+          正在创建目录“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-34e28v\\Debug\\”。
+          正在创建目录“cmTC_afbf9.dir\\Debug\\cmTC_afbf9.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_afbf9.dir\\Debug\\cmTC_afbf9.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=rand_r /D _XOPEN_SOURCE=700 /D _BSD_SOURCE /D _DEFAULT_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_afbf9.dir\\Debug\\\\" /Fd"cmTC_afbf9.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-34e28v\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckFunctionExists.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=rand_r /D _XOPEN_SOURCE=700 /D _BSD_SOURCE /D _DEFAULT_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_afbf9.dir\\Debug\\\\" /Fd"cmTC_afbf9.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-34e28v\\CheckFunctionExists.c"
+        Link:
+          d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-34e28v\\Debug\\cmTC_afbf9.exe" /INCREMENTAL /ILK:"cmTC_afbf9.dir\\Debug\\cmTC_afbf9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-34e28v/Debug/cmTC_afbf9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-34e28v/Debug/cmTC_afbf9.lib" /MACHINE:X64  /machine:x64 cmTC_afbf9.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 rand_r，函数 main 中引用了该符号 [E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-34e28v\\cmTC_afbf9.vcxproj]
+        E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-34e28v\\Debug\\cmTC_afbf9.exe : fatal error LNK1120: 1 个无法解析的外部命令 [E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-34e28v\\cmTC_afbf9.vcxproj]
+        已完成生成项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-34e28v\\cmTC_afbf9.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-34e28v\\cmTC_afbf9.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 rand_r，函数 main 中引用了该符号 [E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-34e28v\\cmTC_afbf9.vcxproj]
+          E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-34e28v\\Debug\\cmTC_afbf9.exe : fatal error LNK1120: 1 个无法解析的外部命令 [E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-34e28v\\cmTC_afbf9.vcxproj]
+        
+            0 个警告
+            2 个错误
+        
+        已用时间 00:00:00.53
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "src/libbson/CMakeLists.txt:101 (check_include_file)"
+    checks:
+      - "Looking for strings.h"
+    directories:
+      source: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-r8kecu"
+      binary: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-r8kecu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/mongo-c-dirver_VS2019/build/cmake"
+    buildResult:
+      variable: "BSON_HAVE_STRINGS_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-r8kecu'
+        
+        Run Build Command(s): "d:/Microsoft Visual Studio 16.0/MSBuild/Current/Bin/MSBuild.exe" cmTC_3a1a6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/8/14 14:59:38。
+        节点 1 上的项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-r8kecu\\cmTC_3a1a6.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_3a1a6.dir\\Debug\\”。
+          正在创建目录“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-r8kecu\\Debug\\”。
+          正在创建目录“cmTC_3a1a6.dir\\Debug\\cmTC_3a1a6.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_3a1a6.dir\\Debug\\cmTC_3a1a6.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _XOPEN_SOURCE=700 /D _BSD_SOURCE /D _DEFAULT_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3a1a6.dir\\Debug\\\\" /Fd"cmTC_3a1a6.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-r8kecu\\CheckIncludeFile.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckIncludeFile.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _XOPEN_SOURCE=700 /D _BSD_SOURCE /D _DEFAULT_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3a1a6.dir\\Debug\\\\" /Fd"cmTC_3a1a6.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-r8kecu\\CheckIncludeFile.c"
+        E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-r8kecu\\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “strings.h”: No such file or directory [E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-r8kecu\\cmTC_3a1a6.vcxproj]
+        已完成生成项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-r8kecu\\cmTC_3a1a6.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-r8kecu\\cmTC_3a1a6.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-r8kecu\\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “strings.h”: No such file or directory [E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-r8kecu\\cmTC_3a1a6.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.35
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "D:/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "src/libbson/CMakeLists.txt:103 (check_symbol_exists)"
+    checks:
+      - "Looking for strlcpy"
+    directories:
+      source: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-aario6"
+      binary: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-aario6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/mongo-c-dirver_VS2019/build/cmake"
+    buildResult:
+      variable: "BSON_HAVE_STRLCPY"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-aario6'
+        
+        Run Build Command(s): "d:/Microsoft Visual Studio 16.0/MSBuild/Current/Bin/MSBuild.exe" cmTC_9a070.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/8/14 14:59:38。
+        节点 1 上的项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-aario6\\cmTC_9a070.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_9a070.dir\\Debug\\”。
+          正在创建目录“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-aario6\\Debug\\”。
+          正在创建目录“cmTC_9a070.dir\\Debug\\cmTC_9a070.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_9a070.dir\\Debug\\cmTC_9a070.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _XOPEN_SOURCE=700 /D _BSD_SOURCE /D _DEFAULT_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9a070.dir\\Debug\\\\" /Fd"cmTC_9a070.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-aario6\\CheckSymbolExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckSymbolExists.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _XOPEN_SOURCE=700 /D _BSD_SOURCE /D _DEFAULT_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9a070.dir\\Debug\\\\" /Fd"cmTC_9a070.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-aario6\\CheckSymbolExists.c"
+        E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-aario6\\CheckSymbolExists.c(8,26): error C2065: “strlcpy”: 未声明的标识符 [E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-aario6\\cmTC_9a070.vcxproj]
+        已完成生成项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-aario6\\cmTC_9a070.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-aario6\\cmTC_9a070.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-aario6\\CheckSymbolExists.c(8,26): error C2065: “strlcpy”: 未声明的标识符 [E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-aario6\\cmTC_9a070.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.35
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "src/libbson/CMakeLists.txt:105 (check_include_file)"
+    checks:
+      - "Looking for stdbool.h"
+    directories:
+      source: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-ia7f5u"
+      binary: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-ia7f5u"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/mongo-c-dirver_VS2019/build/cmake"
+    buildResult:
+      variable: "BSON_HAVE_STDBOOL_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-ia7f5u'
+        
+        Run Build Command(s): "d:/Microsoft Visual Studio 16.0/MSBuild/Current/Bin/MSBuild.exe" cmTC_33c14.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/8/14 14:59:39。
+        节点 1 上的项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-ia7f5u\\cmTC_33c14.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_33c14.dir\\Debug\\”。
+          正在创建目录“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-ia7f5u\\Debug\\”。
+          正在创建目录“cmTC_33c14.dir\\Debug\\cmTC_33c14.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_33c14.dir\\Debug\\cmTC_33c14.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _XOPEN_SOURCE=700 /D _BSD_SOURCE /D _DEFAULT_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_33c14.dir\\Debug\\\\" /Fd"cmTC_33c14.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-ia7f5u\\CheckIncludeFile.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckIncludeFile.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _XOPEN_SOURCE=700 /D _BSD_SOURCE /D _DEFAULT_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_33c14.dir\\Debug\\\\" /Fd"cmTC_33c14.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-ia7f5u\\CheckIncludeFile.c"
+        Link:
+          d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-ia7f5u\\Debug\\cmTC_33c14.exe" /INCREMENTAL /ILK:"cmTC_33c14.dir\\Debug\\cmTC_33c14.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-ia7f5u/Debug/cmTC_33c14.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-ia7f5u/Debug/cmTC_33c14.lib" /MACHINE:X64  /machine:x64 cmTC_33c14.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_33c14.vcxproj -> E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-ia7f5u\\Debug\\cmTC_33c14.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_33c14.dir\\Debug\\cmTC_33c14.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_33c14.dir\\Debug\\cmTC_33c14.tlog\\cmTC_33c14.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-ia7f5u\\cmTC_33c14.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.53
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "D:/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "src/libbson/CMakeLists.txt:107 (check_symbol_exists)"
+    checks:
+      - "Looking for clock_gettime"
+    directories:
+      source: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-5lrvc2"
+      binary: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-5lrvc2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/mongo-c-dirver_VS2019/build/cmake"
+    buildResult:
+      variable: "BSON_HAVE_CLOCK_GETTIME"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-5lrvc2'
+        
+        Run Build Command(s): "d:/Microsoft Visual Studio 16.0/MSBuild/Current/Bin/MSBuild.exe" cmTC_e1205.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/8/14 14:59:40。
+        节点 1 上的项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-5lrvc2\\cmTC_e1205.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_e1205.dir\\Debug\\”。
+          正在创建目录“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-5lrvc2\\Debug\\”。
+          正在创建目录“cmTC_e1205.dir\\Debug\\cmTC_e1205.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_e1205.dir\\Debug\\cmTC_e1205.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _XOPEN_SOURCE=700 /D _BSD_SOURCE /D _DEFAULT_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e1205.dir\\Debug\\\\" /Fd"cmTC_e1205.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-5lrvc2\\CheckSymbolExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckSymbolExists.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _XOPEN_SOURCE=700 /D _BSD_SOURCE /D _DEFAULT_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e1205.dir\\Debug\\\\" /Fd"cmTC_e1205.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-5lrvc2\\CheckSymbolExists.c"
+        E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-5lrvc2\\CheckSymbolExists.c(8,32): error C2065: “clock_gettime”: 未声明的标识符 [E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-5lrvc2\\cmTC_e1205.vcxproj]
+        已完成生成项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-5lrvc2\\cmTC_e1205.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-5lrvc2\\cmTC_e1205.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-5lrvc2\\CheckSymbolExists.c(8,32): error C2065: “clock_gettime”: 未声明的标识符 [E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-5lrvc2\\cmTC_e1205.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.34
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "D:/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "src/libbson/CMakeLists.txt:109 (check_symbol_exists)"
+    checks:
+      - "Looking for strnlen"
+    directories:
+      source: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-xdp549"
+      binary: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-xdp549"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/mongo-c-dirver_VS2019/build/cmake"
+    buildResult:
+      variable: "BSON_HAVE_STRNLEN"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-xdp549'
+        
+        Run Build Command(s): "d:/Microsoft Visual Studio 16.0/MSBuild/Current/Bin/MSBuild.exe" cmTC_85921.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/8/14 14:59:40。
+        节点 1 上的项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-xdp549\\cmTC_85921.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_85921.dir\\Debug\\”。
+          正在创建目录“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-xdp549\\Debug\\”。
+          正在创建目录“cmTC_85921.dir\\Debug\\cmTC_85921.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_85921.dir\\Debug\\cmTC_85921.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _XOPEN_SOURCE=700 /D _BSD_SOURCE /D _DEFAULT_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_85921.dir\\Debug\\\\" /Fd"cmTC_85921.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-xdp549\\CheckSymbolExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckSymbolExists.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _XOPEN_SOURCE=700 /D _BSD_SOURCE /D _DEFAULT_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_85921.dir\\Debug\\\\" /Fd"cmTC_85921.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-xdp549\\CheckSymbolExists.c"
+        Link:
+          d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-xdp549\\Debug\\cmTC_85921.exe" /INCREMENTAL /ILK:"cmTC_85921.dir\\Debug\\cmTC_85921.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-xdp549/Debug/cmTC_85921.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-xdp549/Debug/cmTC_85921.lib" /MACHINE:X64  /machine:x64 cmTC_85921.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_85921.vcxproj -> E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-xdp549\\Debug\\cmTC_85921.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_85921.dir\\Debug\\cmTC_85921.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_85921.dir\\Debug\\cmTC_85921.tlog\\cmTC_85921.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-xdp549\\cmTC_85921.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.55
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "D:/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "build/cmake/CheckSchedGetCPU.cmake:3 (check_symbol_exists)"
+      - "src/libmongoc/CMakeLists.txt:17 (include)"
+    checks:
+      - "Looking for sched_getcpu"
+    directories:
+      source: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-yi62cc"
+      binary: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-yi62cc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/mongo-c-dirver_VS2019/build/cmake"
+    buildResult:
+      variable: "HAVE_SCHED_GETCPU"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-yi62cc'
+        
+        Run Build Command(s): "d:/Microsoft Visual Studio 16.0/MSBuild/Current/Bin/MSBuild.exe" cmTC_bd7c4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/8/14 14:59:41。
+        节点 1 上的项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-yi62cc\\cmTC_bd7c4.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_bd7c4.dir\\Debug\\”。
+          正在创建目录“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-yi62cc\\Debug\\”。
+          正在创建目录“cmTC_bd7c4.dir\\Debug\\cmTC_bd7c4.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_bd7c4.dir\\Debug\\cmTC_bd7c4.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _XOPEN_SOURCE=700 /D _BSD_SOURCE /D _DEFAULT_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bd7c4.dir\\Debug\\\\" /Fd"cmTC_bd7c4.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-yi62cc\\CheckSymbolExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckSymbolExists.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _XOPEN_SOURCE=700 /D _BSD_SOURCE /D _DEFAULT_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bd7c4.dir\\Debug\\\\" /Fd"cmTC_bd7c4.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-yi62cc\\CheckSymbolExists.c"
+        E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-yi62cc\\CheckSymbolExists.c(2,10): fatal error C1083: 无法打开包括文件: “sched.h”: No such file or directory [E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-yi62cc\\cmTC_bd7c4.vcxproj]
+        已完成生成项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-yi62cc\\cmTC_bd7c4.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-yi62cc\\cmTC_bd7c4.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-yi62cc\\CheckSymbolExists.c(2,10): fatal error C1083: 无法打开包括文件: “sched.h”: No such file or directory [E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-yi62cc\\cmTC_bd7c4.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.39
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "src/libmongoc/CMakeLists.txt:95 (check_include_files)"
+    checks:
+      - "Looking for include file unistd.h"
+    directories:
+      source: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-eilotc"
+      binary: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-eilotc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/mongo-c-dirver_VS2019/build/cmake"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-eilotc'
+        
+        Run Build Command(s): "d:/Microsoft Visual Studio 16.0/MSBuild/Current/Bin/MSBuild.exe" cmTC_812b2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/8/14 14:59:42。
+        节点 1 上的项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-eilotc\\cmTC_812b2.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_812b2.dir\\Debug\\”。
+          正在创建目录“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-eilotc\\Debug\\”。
+          正在创建目录“cmTC_812b2.dir\\Debug\\cmTC_812b2.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_812b2.dir\\Debug\\cmTC_812b2.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _XOPEN_SOURCE=700 /D _BSD_SOURCE /D _DEFAULT_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_812b2.dir\\Debug\\\\" /Fd"cmTC_812b2.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-eilotc\\HAVE_UNISTD_H.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          HAVE_UNISTD_H.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _XOPEN_SOURCE=700 /D _BSD_SOURCE /D _DEFAULT_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_812b2.dir\\Debug\\\\" /Fd"cmTC_812b2.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-eilotc\\HAVE_UNISTD_H.c"
+        E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-eilotc\\HAVE_UNISTD_H.c(2,10): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-eilotc\\cmTC_812b2.vcxproj]
+        已完成生成项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-eilotc\\cmTC_812b2.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-eilotc\\cmTC_812b2.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-eilotc\\HAVE_UNISTD_H.c(2,10): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-eilotc\\cmTC_812b2.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.35
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "src/libmongoc/CMakeLists.txt:96 (check_include_files)"
+    checks:
+      - "Looking for include file stdarg.h"
+    directories:
+      source: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-hap6pe"
+      binary: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-hap6pe"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/mongo-c-dirver_VS2019/build/cmake"
+    buildResult:
+      variable: "HAVE_STDARG_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-hap6pe'
+        
+        Run Build Command(s): "d:/Microsoft Visual Studio 16.0/MSBuild/Current/Bin/MSBuild.exe" cmTC_e08ce.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/8/14 14:59:43。
+        节点 1 上的项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-hap6pe\\cmTC_e08ce.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_e08ce.dir\\Debug\\”。
+          正在创建目录“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-hap6pe\\Debug\\”。
+          正在创建目录“cmTC_e08ce.dir\\Debug\\cmTC_e08ce.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_e08ce.dir\\Debug\\cmTC_e08ce.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _XOPEN_SOURCE=700 /D _BSD_SOURCE /D _DEFAULT_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e08ce.dir\\Debug\\\\" /Fd"cmTC_e08ce.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-hap6pe\\HAVE_STDARG_H.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          HAVE_STDARG_H.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _XOPEN_SOURCE=700 /D _BSD_SOURCE /D _DEFAULT_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e08ce.dir\\Debug\\\\" /Fd"cmTC_e08ce.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-hap6pe\\HAVE_STDARG_H.c"
+        Link:
+          d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-hap6pe\\Debug\\cmTC_e08ce.exe" /INCREMENTAL /ILK:"cmTC_e08ce.dir\\Debug\\cmTC_e08ce.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-hap6pe/Debug/cmTC_e08ce.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-hap6pe/Debug/cmTC_e08ce.lib" /MACHINE:X64  /machine:x64 cmTC_e08ce.dir\\Debug\\HAVE_STDARG_H.obj
+          cmTC_e08ce.vcxproj -> E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-hap6pe\\Debug\\cmTC_e08ce.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_e08ce.dir\\Debug\\cmTC_e08ce.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_e08ce.dir\\Debug\\cmTC_e08ce.tlog\\cmTC_e08ce.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-hap6pe\\cmTC_e08ce.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.52
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "D:/CMake/share/cmake-3.30/Modules/CheckTypeSize.cmake:251 (check_include_file)"
+      - "src/libmongoc/CMakeLists.txt:398 (CHECK_TYPE_SIZE)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-e07s8b"
+      binary: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-e07s8b"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/mongo-c-dirver_VS2019/build/cmake"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-e07s8b'
+        
+        Run Build Command(s): "d:/Microsoft Visual Studio 16.0/MSBuild/Current/Bin/MSBuild.exe" cmTC_5909c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/8/14 14:59:44。
+        节点 1 上的项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-e07s8b\\cmTC_5909c.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_5909c.dir\\Debug\\”。
+          正在创建目录“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-e07s8b\\Debug\\”。
+          正在创建目录“cmTC_5909c.dir\\Debug\\cmTC_5909c.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_5909c.dir\\Debug\\cmTC_5909c.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _XOPEN_SOURCE=700 /D _BSD_SOURCE /D _DEFAULT_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5909c.dir\\Debug\\\\" /Fd"cmTC_5909c.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-e07s8b\\CheckIncludeFile.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckIncludeFile.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _XOPEN_SOURCE=700 /D _BSD_SOURCE /D _DEFAULT_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5909c.dir\\Debug\\\\" /Fd"cmTC_5909c.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-e07s8b\\CheckIncludeFile.c"
+        Link:
+          d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-e07s8b\\Debug\\cmTC_5909c.exe" /INCREMENTAL /ILK:"cmTC_5909c.dir\\Debug\\cmTC_5909c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-e07s8b/Debug/cmTC_5909c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-e07s8b/Debug/cmTC_5909c.lib" /MACHINE:X64  /machine:x64 cmTC_5909c.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_5909c.vcxproj -> E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-e07s8b\\Debug\\cmTC_5909c.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_5909c.dir\\Debug\\cmTC_5909c.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_5909c.dir\\Debug\\cmTC_5909c.tlog\\cmTC_5909c.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-e07s8b\\cmTC_5909c.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.53
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "D:/CMake/share/cmake-3.30/Modules/CheckTypeSize.cmake:252 (check_include_file)"
+      - "src/libmongoc/CMakeLists.txt:398 (CHECK_TYPE_SIZE)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-nesnjv"
+      binary: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-nesnjv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/mongo-c-dirver_VS2019/build/cmake"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-nesnjv'
+        
+        Run Build Command(s): "d:/Microsoft Visual Studio 16.0/MSBuild/Current/Bin/MSBuild.exe" cmTC_50603.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/8/14 14:59:45。
+        节点 1 上的项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-nesnjv\\cmTC_50603.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_50603.dir\\Debug\\”。
+          正在创建目录“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-nesnjv\\Debug\\”。
+          正在创建目录“cmTC_50603.dir\\Debug\\cmTC_50603.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_50603.dir\\Debug\\cmTC_50603.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _XOPEN_SOURCE=700 /D _BSD_SOURCE /D _DEFAULT_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_50603.dir\\Debug\\\\" /Fd"cmTC_50603.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-nesnjv\\CheckIncludeFile.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckIncludeFile.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _XOPEN_SOURCE=700 /D _BSD_SOURCE /D _DEFAULT_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_50603.dir\\Debug\\\\" /Fd"cmTC_50603.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-nesnjv\\CheckIncludeFile.c"
+        Link:
+          d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-nesnjv\\Debug\\cmTC_50603.exe" /INCREMENTAL /ILK:"cmTC_50603.dir\\Debug\\cmTC_50603.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-nesnjv/Debug/cmTC_50603.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-nesnjv/Debug/cmTC_50603.lib" /MACHINE:X64  /machine:x64 cmTC_50603.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_50603.vcxproj -> E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-nesnjv\\Debug\\cmTC_50603.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_50603.dir\\Debug\\cmTC_50603.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_50603.dir\\Debug\\cmTC_50603.tlog\\cmTC_50603.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-nesnjv\\cmTC_50603.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.54
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "D:/CMake/share/cmake-3.30/Modules/CheckTypeSize.cmake:253 (check_include_file)"
+      - "src/libmongoc/CMakeLists.txt:398 (CHECK_TYPE_SIZE)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-8net95"
+      binary: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-8net95"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/mongo-c-dirver_VS2019/build/cmake"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-8net95'
+        
+        Run Build Command(s): "d:/Microsoft Visual Studio 16.0/MSBuild/Current/Bin/MSBuild.exe" cmTC_c444c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/8/14 14:59:46。
+        节点 1 上的项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-8net95\\cmTC_c444c.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_c444c.dir\\Debug\\”。
+          正在创建目录“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-8net95\\Debug\\”。
+          正在创建目录“cmTC_c444c.dir\\Debug\\cmTC_c444c.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_c444c.dir\\Debug\\cmTC_c444c.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _XOPEN_SOURCE=700 /D _BSD_SOURCE /D _DEFAULT_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c444c.dir\\Debug\\\\" /Fd"cmTC_c444c.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-8net95\\CheckIncludeFile.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckIncludeFile.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _XOPEN_SOURCE=700 /D _BSD_SOURCE /D _DEFAULT_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c444c.dir\\Debug\\\\" /Fd"cmTC_c444c.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-8net95\\CheckIncludeFile.c"
+        Link:
+          d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-8net95\\Debug\\cmTC_c444c.exe" /INCREMENTAL /ILK:"cmTC_c444c.dir\\Debug\\cmTC_c444c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-8net95/Debug/cmTC_c444c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-8net95/Debug/cmTC_c444c.lib" /MACHINE:X64  /machine:x64 cmTC_c444c.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_c444c.vcxproj -> E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-8net95\\Debug\\cmTC_c444c.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_c444c.dir\\Debug\\cmTC_c444c.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_c444c.dir\\Debug\\cmTC_c444c.tlog\\cmTC_c444c.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-8net95\\cmTC_c444c.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.54
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/CheckTypeSize.cmake:147 (try_compile)"
+      - "D:/CMake/share/cmake-3.30/Modules/CheckTypeSize.cmake:272 (__check_type_size_impl)"
+      - "src/libmongoc/CMakeLists.txt:398 (CHECK_TYPE_SIZE)"
+    checks:
+      - "Check size of socklen_t"
+    directories:
+      source: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-mde4wa"
+      binary: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-mde4wa"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/mongo-c-dirver_VS2019/build/cmake"
+    buildResult:
+      variable: "HAVE_HAVE_SOCKLEN"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-mde4wa'
+        
+        Run Build Command(s): "d:/Microsoft Visual Studio 16.0/MSBuild/Current/Bin/MSBuild.exe" cmTC_2b01a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/8/14 14:59:47。
+        节点 1 上的项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-mde4wa\\cmTC_2b01a.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_2b01a.dir\\Debug\\”。
+          正在创建目录“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-mde4wa\\Debug\\”。
+          正在创建目录“cmTC_2b01a.dir\\Debug\\cmTC_2b01a.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_2b01a.dir\\Debug\\cmTC_2b01a.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _XOPEN_SOURCE=700 /D _BSD_SOURCE /D _DEFAULT_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2b01a.dir\\Debug\\\\" /Fd"cmTC_2b01a.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-mde4wa\\HAVE_SOCKLEN.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          HAVE_SOCKLEN.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _XOPEN_SOURCE=700 /D _BSD_SOURCE /D _DEFAULT_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2b01a.dir\\Debug\\\\" /Fd"cmTC_2b01a.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-mde4wa\\HAVE_SOCKLEN.c"
+        Link:
+          d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-mde4wa\\Debug\\cmTC_2b01a.exe" /INCREMENTAL /ILK:"cmTC_2b01a.dir\\Debug\\cmTC_2b01a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-mde4wa/Debug/cmTC_2b01a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-mde4wa/Debug/cmTC_2b01a.lib" /MACHINE:X64  /machine:x64 cmTC_2b01a.dir\\Debug\\HAVE_SOCKLEN.obj
+          cmTC_2b01a.vcxproj -> E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-mde4wa\\Debug\\cmTC_2b01a.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_2b01a.dir\\Debug\\cmTC_2b01a.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_2b01a.dir\\Debug\\cmTC_2b01a.tlog\\cmTC_2b01a.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-mde4wa\\cmTC_2b01a.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.77
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/CMake/share/cmake-3.30/Modules/CheckSourceCompiles.cmake:77 (cmake_check_source_compiles)"
+      - "D:/CMake/share/cmake-3.30/Modules/CheckStructHasMember.cmake:77 (CHECK_SOURCE_COMPILES)"
+      - "src/libmongoc/CMakeLists.txt:528 (CHECK_STRUCT_HAS_MEMBER)"
+    checks:
+      - "Performing Test MONGOC_HAVE_SS_FAMILY"
+    directories:
+      source: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-xjr5qy"
+      binary: "E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-xjr5qy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/mongo-c-dirver_VS2019/build/cmake"
+    buildResult:
+      variable: "MONGOC_HAVE_SS_FAMILY"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/CMakeScratch/TryCompile-xjr5qy'
+        
+        Run Build Command(s): "d:/Microsoft Visual Studio 16.0/MSBuild/Current/Bin/MSBuild.exe" cmTC_22726.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/8/14 14:59:48。
+        节点 1 上的项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-xjr5qy\\cmTC_22726.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_22726.dir\\Debug\\”。
+          正在创建目录“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-xjr5qy\\Debug\\”。
+          正在创建目录“cmTC_22726.dir\\Debug\\cmTC_22726.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_22726.dir\\Debug\\cmTC_22726.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          d:\\Microsoft Visual Studio 16.0\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D MONGOC_HAVE_SS_FAMILY /D _XOPEN_SOURCE=700 /D _BSD_SOURCE /D _DEFAULT_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_22726.dir\\Debug\\\\" /Fd"cmTC_22726.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-xjr5qy\\src.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          src.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D MONGOC_HAVE_SS_FAMILY /D _XOPEN_SOURCE=700 /D _BSD_SOURCE /D _DEFAULT_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_22726.dir\\Debug\\\\" /Fd"cmTC_22726.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-xjr5qy\\src.c"
+        E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-xjr5qy\\src.c(2,10): fatal error C1083: 无法打开包括文件: “sys/socket.h”: No such file or directory [E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-xjr5qy\\cmTC_22726.vcxproj]
+        已完成生成项目“E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-xjr5qy\\cmTC_22726.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-xjr5qy\\cmTC_22726.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-xjr5qy\\src.c(2,10): fatal error C1083: 无法打开包括文件: “sys/socket.h”: No such file or directory [E:\\mongo-c-dirver_VS2019\\build_vs\\CMakeFiles\\CMakeScratch\\TryCompile-xjr5qy\\cmTC_22726.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.34
+        
+      exitCode: 1
+...

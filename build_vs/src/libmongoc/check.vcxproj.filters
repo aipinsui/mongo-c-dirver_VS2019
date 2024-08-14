@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\mongo-c-dirver_VS2019\build_vs\CMakeFiles\b2293b3809a02d1438c305d3e7c96b8d\check.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\mongo-c-dirver_VS2019\src\libmongoc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\CMakeFiles\check" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{57D93C94-ED60-3A1B-A79F-D13966022A7D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

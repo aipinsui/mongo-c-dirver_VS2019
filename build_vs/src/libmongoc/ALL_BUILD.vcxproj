@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{43DA545A-0969-325F-81F0-DED618741B79}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\mongo-c-dirver_VS2019\src\libmongoc\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/mongo-c-dirver_VS2019/src/libmongoc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\CMake\bin\cmake.exe -SE:/mongo-c-dirver_VS2019 -BE:/mongo-c-dirver_VS2019/build_vs --check-stamp-file E:/mongo-c-dirver_VS2019/build_vs/src/libmongoc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CMake\share\cmake-3.30\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\CMake\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;D:\CMake\share\cmake-3.30\Modules\CMakePushCheckState.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFileCXX.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckStructHasMember.cmake;D:\CMake\share\cmake-3.30\Modules\CheckSymbolExists.cmake;D:\CMake\share\cmake-3.30\Modules\CheckTypeSize.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.30\Modules\FindPkgConfig.cmake;D:\CMake\share\cmake-3.30\Modules\InstallRequiredSystemLibraries.cmake;D:\CMake\share\cmake-3.30\Modules\TestBigEndian.cmake;D:\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;E:\mongo-c-dirver_VS2019\build\cmake\CheckSchedGetCPU.cmake;E:\mongo-c-dirver_VS2019\build\cmake\FindSnappy.cmake;E:\mongo-c-dirver_VS2019\build\cmake\FindUtf8Proc.cmake;E:\mongo-c-dirver_VS2019\build\cmake\LegacyPackage.cmake;E:\mongo-c-dirver_VS2019\build\cmake\ResSearch.cmake;E:\mongo-c-dirver_VS2019\build\cmake\libmongoc-1.0-config.cmake.in;E:\mongo-c-dirver_VS2019\build\cmake\libmongoc-static-1.0-config.cmake.in;E:\mongo-c-dirver_VS2019\build_vs\CMakeFiles\cmake.verify_globs;E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\_eval.tmp.cmake;E:\mongo-c-dirver_VS2019\src\libmongoc\libmongoc.rc.in;E:\mongo-c-dirver_VS2019\src\libmongoc\src\libmongoc-ssl-1.0.pc.in;E:\mongo-c-dirver_VS2019\src\libmongoc\src\mongoc-config.cmake;E:\mongo-c-dirver_VS2019\src\libmongoc\src\mongoc\mongoc-config.h.in;E:\mongo-c-dirver_VS2019\src\libmongoc\src\mongoc\mongoc-version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/mongo-c-dirver_VS2019/src/libmongoc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\CMake\bin\cmake.exe -SE:/mongo-c-dirver_VS2019 -BE:/mongo-c-dirver_VS2019/build_vs --check-stamp-file E:/mongo-c-dirver_VS2019/build_vs/src/libmongoc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CMake\share\cmake-3.30\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\CMake\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;D:\CMake\share\cmake-3.30\Modules\CMakePushCheckState.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFileCXX.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckStructHasMember.cmake;D:\CMake\share\cmake-3.30\Modules\CheckSymbolExists.cmake;D:\CMake\share\cmake-3.30\Modules\CheckTypeSize.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.30\Modules\FindPkgConfig.cmake;D:\CMake\share\cmake-3.30\Modules\InstallRequiredSystemLibraries.cmake;D:\CMake\share\cmake-3.30\Modules\TestBigEndian.cmake;D:\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;E:\mongo-c-dirver_VS2019\build\cmake\CheckSchedGetCPU.cmake;E:\mongo-c-dirver_VS2019\build\cmake\FindSnappy.cmake;E:\mongo-c-dirver_VS2019\build\cmake\FindUtf8Proc.cmake;E:\mongo-c-dirver_VS2019\build\cmake\LegacyPackage.cmake;E:\mongo-c-dirver_VS2019\build\cmake\ResSearch.cmake;E:\mongo-c-dirver_VS2019\build\cmake\libmongoc-1.0-config.cmake.in;E:\mongo-c-dirver_VS2019\build\cmake\libmongoc-static-1.0-config.cmake.in;E:\mongo-c-dirver_VS2019\build_vs\CMakeFiles\cmake.verify_globs;E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\_eval.tmp.cmake;E:\mongo-c-dirver_VS2019\src\libmongoc\libmongoc.rc.in;E:\mongo-c-dirver_VS2019\src\libmongoc\src\libmongoc-ssl-1.0.pc.in;E:\mongo-c-dirver_VS2019\src\libmongoc\src\mongoc-config.cmake;E:\mongo-c-dirver_VS2019\src\libmongoc\src\mongoc\mongoc-config.h.in;E:\mongo-c-dirver_VS2019\src\libmongoc\src\mongoc\mongoc-version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/mongo-c-dirver_VS2019/src/libmongoc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\CMake\bin\cmake.exe -SE:/mongo-c-dirver_VS2019 -BE:/mongo-c-dirver_VS2019/build_vs --check-stamp-file E:/mongo-c-dirver_VS2019/build_vs/src/libmongoc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CMake\share\cmake-3.30\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\CMake\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;D:\CMake\share\cmake-3.30\Modules\CMakePushCheckState.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFileCXX.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckStructHasMember.cmake;D:\CMake\share\cmake-3.30\Modules\CheckSymbolExists.cmake;D:\CMake\share\cmake-3.30\Modules\CheckTypeSize.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.30\Modules\FindPkgConfig.cmake;D:\CMake\share\cmake-3.30\Modules\InstallRequiredSystemLibraries.cmake;D:\CMake\share\cmake-3.30\Modules\TestBigEndian.cmake;D:\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;E:\mongo-c-dirver_VS2019\build\cmake\CheckSchedGetCPU.cmake;E:\mongo-c-dirver_VS2019\build\cmake\FindSnappy.cmake;E:\mongo-c-dirver_VS2019\build\cmake\FindUtf8Proc.cmake;E:\mongo-c-dirver_VS2019\build\cmake\LegacyPackage.cmake;E:\mongo-c-dirver_VS2019\build\cmake\ResSearch.cmake;E:\mongo-c-dirver_VS2019\build\cmake\libmongoc-1.0-config.cmake.in;E:\mongo-c-dirver_VS2019\build\cmake\libmongoc-static-1.0-config.cmake.in;E:\mongo-c-dirver_VS2019\build_vs\CMakeFiles\cmake.verify_globs;E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\_eval.tmp.cmake;E:\mongo-c-dirver_VS2019\src\libmongoc\libmongoc.rc.in;E:\mongo-c-dirver_VS2019\src\libmongoc\src\libmongoc-ssl-1.0.pc.in;E:\mongo-c-dirver_VS2019\src\libmongoc\src\mongoc-config.cmake;E:\mongo-c-dirver_VS2019\src\libmongoc\src\mongoc\mongoc-config.h.in;E:\mongo-c-dirver_VS2019\src\libmongoc\src\mongoc\mongoc-version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/mongo-c-dirver_VS2019/src/libmongoc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\CMake\bin\cmake.exe -SE:/mongo-c-dirver_VS2019 -BE:/mongo-c-dirver_VS2019/build_vs --check-stamp-file E:/mongo-c-dirver_VS2019/build_vs/src/libmongoc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CMake\share\cmake-3.30\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\CMake\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;D:\CMake\share\cmake-3.30\Modules\CMakePushCheckState.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFileCXX.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckStructHasMember.cmake;D:\CMake\share\cmake-3.30\Modules\CheckSymbolExists.cmake;D:\CMake\share\cmake-3.30\Modules\CheckTypeSize.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.30\Modules\FindPkgConfig.cmake;D:\CMake\share\cmake-3.30\Modules\InstallRequiredSystemLibraries.cmake;D:\CMake\share\cmake-3.30\Modules\TestBigEndian.cmake;D:\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;E:\mongo-c-dirver_VS2019\build\cmake\CheckSchedGetCPU.cmake;E:\mongo-c-dirver_VS2019\build\cmake\FindSnappy.cmake;E:\mongo-c-dirver_VS2019\build\cmake\FindUtf8Proc.cmake;E:\mongo-c-dirver_VS2019\build\cmake\LegacyPackage.cmake;E:\mongo-c-dirver_VS2019\build\cmake\ResSearch.cmake;E:\mongo-c-dirver_VS2019\build\cmake\libmongoc-1.0-config.cmake.in;E:\mongo-c-dirver_VS2019\build\cmake\libmongoc-static-1.0-config.cmake.in;E:\mongo-c-dirver_VS2019\build_vs\CMakeFiles\cmake.verify_globs;E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\_eval.tmp.cmake;E:\mongo-c-dirver_VS2019\src\libmongoc\libmongoc.rc.in;E:\mongo-c-dirver_VS2019\src\libmongoc\src\libmongoc-ssl-1.0.pc.in;E:\mongo-c-dirver_VS2019\src\libmongoc\src\mongoc-config.cmake;E:\mongo-c-dirver_VS2019\src\libmongoc\src\mongoc\mongoc-config.h.in;E:\mongo-c-dirver_VS2019\src\libmongoc\src\mongoc\mongoc-version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\ZERO_CHECK.vcxproj">
+      <Project>{E3B4350C-8543-3832-8893-B504EBFD5FBD}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\aggregation1.vcxproj">
+      <Project>{B578BDC8-AD24-372A-A8FA-1A721835F235}</Project>
+      <Name>aggregation1</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\appending.vcxproj">
+      <Project>{D873ABE0-98A2-3775-A083-0E3C3E2F2C2E}</Project>
+      <Name>appending</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\basic-aggregation.vcxproj">
+      <Project>{D995A06F-F004-3196-83FA-16C2466E5AF2}</Project>
+      <Name>basic-aggregation</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\bulk-collation.vcxproj">
+      <Project>{55E3015A-09FC-3E1B-B48E-EBE66106A033}</Project>
+      <Name>bulk-collation</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\bulk1.vcxproj">
+      <Project>{B14DD1B3-4838-325B-9821-B54616B5C232}</Project>
+      <Name>bulk1</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\bulk2.vcxproj">
+      <Project>{405C6763-D77B-3DA9-9260-D4011183CF8D}</Project>
+      <Name>bulk2</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\bulk3.vcxproj">
+      <Project>{19A16811-89F7-3350-B327-72099A89A7D6}</Project>
+      <Name>bulk3</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\bulk4.vcxproj">
+      <Project>{12608C63-9855-3463-AAA0-1D0D36152EB0}</Project>
+      <Name>bulk4</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\bulk5.vcxproj">
+      <Project>{53F7DD0D-EB61-3825-A550-C9351BDBCA38}</Project>
+      <Name>bulk5</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\bulk6.vcxproj">
+      <Project>{A37AF155-9D16-32DE-84F0-4475F06B3CE7}</Project>
+      <Name>bulk6</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\common-operations.vcxproj">
+      <Project>{5DAB3CDC-59D2-3649-8604-0E058EF6010D}</Project>
+      <Name>common-operations</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\example-client.vcxproj">
+      <Project>{6780A77C-55B7-3B19-842D-CFB9EA17FC39}</Project>
+      <Name>example-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\example-collection-command.vcxproj">
+      <Project>{9ED35DC4-C779-39DC-9509-E46F2E254983}</Project>
+      <Name>example-collection-command</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\example-collection-watch.vcxproj">
+      <Project>{0B09B462-6AF7-303A-B6FF-47CC7870046D}</Project>
+      <Name>example-collection-watch</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\example-command-monitoring.vcxproj">
+      <Project>{1DAE694E-5E39-3883-B8DD-AC4CD7DAC456}</Project>
+      <Name>example-command-monitoring</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\example-command-with-opts.vcxproj">
+      <Project>{33A51D60-3C45-3229-A4E9-8F23399F9803}</Project>
+      <Name>example-command-with-opts</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\example-gridfs.vcxproj">
+      <Project>{B965830B-C19A-3FDE-92AE-51FDA3774733}</Project>
+      <Name>example-gridfs</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\example-gridfs-bucket.vcxproj">
+      <Project>{BC48874D-154C-3BD9-B1CD-35DD09CEA960}</Project>
+      <Name>example-gridfs-bucket</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\example-manage-collection-indexes.vcxproj">
+      <Project>{1BC23E46-1444-3440-BE8C-B563D9A0425D}</Project>
+      <Name>example-manage-collection-indexes</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\example-manage-search-indexes.vcxproj">
+      <Project>{0C577C07-8A0C-3AB6-B6B5-BFDE25E1E890}</Project>
+      <Name>example-manage-search-indexes</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\example-scram.vcxproj">
+      <Project>{196E39B4-5E48-31E0-961D-4822FF24DC69}</Project>
+      <Name>example-scram</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\example-sdam-monitoring.vcxproj">
+      <Project>{A3EADF50-92D7-33C2-8931-93BEEB876BB6}</Project>
+      <Name>example-sdam-monitoring</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\example-session.vcxproj">
+      <Project>{695DF9DA-2029-3C91-B207-841541E0C7FE}</Project>
+      <Name>example-session</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\example-start-at-optime.vcxproj">
+      <Project>{2627D1F9-0B00-3854-826C-EFB4564F2739}</Project>
+      <Name>example-start-at-optime</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\example-transaction.vcxproj">
+      <Project>{BDBAF50D-D13B-375D-9C61-F4C97C1DC42B}</Project>
+      <Name>example-transaction</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\example-update.vcxproj">
+      <Project>{ADB3B2D6-C2D9-330C-9D1C-2D9AE1650253}</Project>
+      <Name>example-update</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\executing.vcxproj">
+      <Project>{6DB91BB3-2062-3CCF-B98F-B8C659271DCA}</Project>
+      <Name>executing</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\fam.vcxproj">
+      <Project>{19205E9E-FDCF-300C-816C-B5B038E43C44}</Project>
+      <Name>fam</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\find-and-modify.vcxproj">
+      <Project>{245F038B-DAB2-334A-8562-9576323DB2C7}</Project>
+      <Name>find-and-modify</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\hello_mongoc.vcxproj">
+      <Project>{AB805D9C-30E1-30D0-A70D-DEBC542CC007}</Project>
+      <Name>hello_mongoc</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\mongoc-dump.vcxproj">
+      <Project>{40599D8C-605F-3889-9B0D-91D493851923}</Project>
+      <Name>mongoc-dump</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\mongoc-ping.vcxproj">
+      <Project>{01B64800-CD19-32DE-89D9-CCE837B9DB17}</Project>
+      <Name>mongoc-ping</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\mongoc-stat.vcxproj">
+      <Project>{4F73B986-B079-3176-9433-536B62969929}</Project>
+      <Name>mongoc-stat</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\mongoc-tail.vcxproj">
+      <Project>{39884788-5A59-3510-9A27-965F35C7DCDC}</Project>
+      <Name>mongoc-tail</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\mongoc_shared.vcxproj">
+      <Project>{43F20820-0610-37F0-9A5D-73FC85B521C4}</Project>
+      <Name>mongoc_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\mongoc_static.vcxproj">
+      <Project>{60019D6F-B7E5-3A02-A590-1E77201AAD6F}</Project>
+      <Name>mongoc_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\test-atlas-executor.vcxproj">
+      <Project>{9DA9AF1A-B64D-35C0-B6AD-268382A607F7}</Project>
+      <Name>test-atlas-executor</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\test-awsauth.vcxproj">
+      <Project>{C932AFB6-A274-3279-AC58-1E7B1A7D02BB}</Project>
+      <Name>test-awsauth</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\test-azurekms.vcxproj">
+      <Project>{F973D7A7-6F64-3C32-A373-DE905D93E9CD}</Project>
+      <Name>test-azurekms</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\test-gcpkms.vcxproj">
+      <Project>{5E1BA10B-5BFD-3146-ADC2-80F934D14F57}</Project>
+      <Name>test-gcpkms</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\test-libmongoc.vcxproj">
+      <Project>{8E8A72C8-633E-3329-A104-423B7B54669A}</Project>
+      <Name>test-libmongoc</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\test-libmongoc-lib.vcxproj">
+      <Project>{A655A9CF-F134-3546-8067-31951938C24B}</Project>
+      <Name>test-libmongoc-lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\test-mongoc-cache.vcxproj">
+      <Project>{14DEDD9B-53DF-33F0-9E6E-57DC86C1FD9E}</Project>
+      <Name>test-mongoc-cache</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\test-mongoc-gssapi.vcxproj">
+      <Project>{52118DA8-D5AE-3F7C-87AE-FA8C5F423623}</Project>
+      <Name>test-mongoc-gssapi</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\utf8proc_obj.vcxproj">
+      <Project>{BF93DE0C-044D-3EDE-A322-02BADD4A4F8E}</Project>
+      <Name>utf8proc_obj</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\zlib_obj.vcxproj">
+      <Project>{D416B35A-A2A7-36D5-B8B4-1B3126C6A9B5}</Project>
+      <Name>zlib_obj</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

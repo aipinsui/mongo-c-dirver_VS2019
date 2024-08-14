@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E3B4350C-8543-3832-8893-B504EBFD5FBD}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Checking File Globs</Message>
+      <Command>setlocal
+D:\CMake\bin\cmake.exe -P E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/VerifyGlobs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Checking File Globs</Message>
+      <Command>setlocal
+D:\CMake\bin\cmake.exe -P E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/VerifyGlobs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Checking File Globs</Message>
+      <Command>setlocal
+D:\CMake\bin\cmake.exe -P E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/VerifyGlobs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Checking File Globs</Message>
+      <Command>setlocal
+D:\CMake\bin\cmake.exe -P E:/mongo-c-dirver_VS2019/build_vs/CMakeFiles/VerifyGlobs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\mongo-c-dirver_VS2019\build_vs\CMakeFiles\ce2b63e0f549eec7b45b55bf86356816\generate.stamp.rule">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\CMake\bin\cmake.exe -SE:/mongo-c-dirver_VS2019 -BE:/mongo-c-dirver_VS2019/build_vs --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/mongo-c-dirver_VS2019/build_vs/mongo-c-driver.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CMake\share\cmake-3.30\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\CMake\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeDependentOption.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;D:\CMake\share\cmake-3.30\Modules\CMakePushCheckState.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.30\Modules\CPack.cmake;D:\CMake\share\cmake-3.30\Modules\CPackComponent.cmake;D:\CMake\share\cmake-3.30\Modules\CTest.cmake;D:\CMake\share\cmake-3.30\Modules\CTestTargets.cmake;D:\CMake\share\cmake-3.30\Modules\CTestUseLaunchers.cmake;D:\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckCXXSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckFunctionExists.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFileCXX.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckLanguage.cmake;D:\CMake\share\cmake-3.30\Modules\CheckLibraryExists.cmake;D:\CMake\share\cmake-3.30\Modules\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckStructHasMember.cmake;D:\CMake\share\cmake-3.30\Modules\CheckSymbolExists.cmake;D:\CMake\share\cmake-3.30\Modules\CheckTypeSize.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\DartConfiguration.tcl.in;D:\CMake\share\cmake-3.30\Modules\FeatureSummary.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.30\Modules\FindPkgConfig.cmake;D:\CMake\share\cmake-3.30\Modules\FindPython.cmake;D:\CMake\share\cmake-3.30\Modules\FindPython\Support.cmake;D:\CMake\share\cmake-3.30\Modules\FindPython3.cmake;D:\CMake\share\cmake-3.30\Modules\FindThreads.cmake;D:\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;D:\CMake\share\cmake-3.30\Modules\InstallRequiredSystemLibraries.cmake;D:\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.30\Modules\TestBigEndian.cmake;D:\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;D:\CMake\share\cmake-3.30\Templates\CPackConfig.cmake.in;E:\mongo-c-dirver_VS2019\CMakeLists.txt;E:\mongo-c-dirver_VS2019\build\cmake\BuildVersion.cmake;E:\mongo-c-dirver_VS2019\build\cmake\CCache.cmake;E:\mongo-c-dirver_VS2019\build\cmake\CheckSchedGetCPU.cmake;E:\mongo-c-dirver_VS2019\build\cmake\FindSnappy.cmake;E:\mongo-c-dirver_VS2019\build\cmake\FindUtf8Proc.cmake;E:\mongo-c-dirver_VS2019\build\cmake\GeneratePkgConfig.cmake;E:\mongo-c-dirver_VS2019\build\cmake\GenerateUninstaller.cmake;E:\mongo-c-dirver_VS2019\build\cmake\LegacyPackage.cmake;E:\mongo-c-dirver_VS2019\build\cmake\LoadVersion.cmake;E:\mongo-c-dirver_VS2019\build\cmake\MongoC-Warnings.cmake;E:\mongo-c-dirver_VS2019\build\cmake\MongoPlatform.cmake;E:\mongo-c-dirver_VS2019\build\cmake\MongoSettings.cmake;E:\mongo-c-dirver_VS2019\build\cmake\ParseVersion.cmake;E:\mongo-c-dirver_VS2019\build\cmake\ResSearch.cmake;E:\mongo-c-dirver_VS2019\build\cmake\Sanitizers.cmake;E:\mongo-c-dirver_VS2019\build\cmake\TestFixtures.cmake;E:\mongo-c-dirver_VS2019\build\cmake\libbson-1.0-config.cmake.in;E:\mongo-c-dirver_VS2019\build\cmake\libbson-static-1.0-config.cmake.in;E:\mongo-c-dirver_VS2019\build\cmake\libmongoc-1.0-config.cmake.in;E:\mongo-c-dirver_VS2019\build\cmake\libmongoc-static-1.0-config.cmake.in;E:\mongo-c-dirver_VS2019\build_vs\CMakeFiles\3.30.2\CMakeCCompiler.cmake;E:\mongo-c-dirver_VS2019\build_vs\CMakeFiles\3.30.2\CMakeCXXCompiler.cmake;E:\mongo-c-dirver_VS2019\build_vs\CMakeFiles\3.30.2\CMakeRCCompiler.cmake;E:\mongo-c-dirver_VS2019\build_vs\CMakeFiles\3.30.2\CMakeSystem.cmake;E:\mongo-c-dirver_VS2019\build_vs\_eval.tmp.cmake;E:\mongo-c-dirver_VS2019\build_vs\src\libbson\_eval.tmp.cmake;E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\_eval.tmp.cmake;E:\mongo-c-dirver_VS2019\src\CMakeLists.txt;E:\mongo-c-dirver_VS2019\src\common\CMakeLists.txt;E:\mongo-c-dirver_VS2019\src\common\common-config.h.in;E:\mongo-c-dirver_VS2019\src\libbson\CMakeLists.txt;E:\mongo-c-dirver_VS2019\src\libbson\libbson.rc.in;E:\mongo-c-dirver_VS2019\src\libbson\src\bson-config.cmake;E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-config.h.in;E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-version.h.in;E:\mongo-c-dirver_VS2019\src\libmongoc\CMakeLists.txt;E:\mongo-c-dirver_VS2019\src\libmongoc\libmongoc.rc.in;E:\mongo-c-dirver_VS2019\src\libmongoc\src\libmongoc-ssl-1.0.pc.in;E:\mongo-c-dirver_VS2019\src\libmongoc\src\mongoc-config.cmake;E:\mongo-c-dirver_VS2019\src\libmongoc\src\mongoc\mongoc-config.h.in;E:\mongo-c-dirver_VS2019\src\libmongoc\src\mongoc\mongoc-version.h.in;E:\mongo-c-dirver_VS2019\src\zlib-1.3.1\zconf.h.in;E:\mongo-c-dirver_VS2019\build_vs\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\mongo-c-dirver_VS2019\build_vs\CMakeFiles\generate.stamp;E:\mongo-c-dirver_VS2019\build_vs\src\common\CMakeFiles\generate.stamp;E:\mongo-c-dirver_VS2019\build_vs\src\libbson\CMakeFiles\generate.stamp;E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\CMakeFiles\generate.stamp;E:\mongo-c-dirver_VS2019\build_vs\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\CMake\bin\cmake.exe -SE:/mongo-c-dirver_VS2019 -BE:/mongo-c-dirver_VS2019/build_vs --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/mongo-c-dirver_VS2019/build_vs/mongo-c-driver.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CMake\share\cmake-3.30\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\CMake\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeDependentOption.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;D:\CMake\share\cmake-3.30\Modules\CMakePushCheckState.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.30\Modules\CPack.cmake;D:\CMake\share\cmake-3.30\Modules\CPackComponent.cmake;D:\CMake\share\cmake-3.30\Modules\CTest.cmake;D:\CMake\share\cmake-3.30\Modules\CTestTargets.cmake;D:\CMake\share\cmake-3.30\Modules\CTestUseLaunchers.cmake;D:\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckCXXSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckFunctionExists.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFileCXX.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckLanguage.cmake;D:\CMake\share\cmake-3.30\Modules\CheckLibraryExists.cmake;D:\CMake\share\cmake-3.30\Modules\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckStructHasMember.cmake;D:\CMake\share\cmake-3.30\Modules\CheckSymbolExists.cmake;D:\CMake\share\cmake-3.30\Modules\CheckTypeSize.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\DartConfiguration.tcl.in;D:\CMake\share\cmake-3.30\Modules\FeatureSummary.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.30\Modules\FindPkgConfig.cmake;D:\CMake\share\cmake-3.30\Modules\FindPython.cmake;D:\CMake\share\cmake-3.30\Modules\FindPython\Support.cmake;D:\CMake\share\cmake-3.30\Modules\FindPython3.cmake;D:\CMake\share\cmake-3.30\Modules\FindThreads.cmake;D:\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;D:\CMake\share\cmake-3.30\Modules\InstallRequiredSystemLibraries.cmake;D:\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.30\Modules\TestBigEndian.cmake;D:\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;D:\CMake\share\cmake-3.30\Templates\CPackConfig.cmake.in;E:\mongo-c-dirver_VS2019\CMakeLists.txt;E:\mongo-c-dirver_VS2019\build\cmake\BuildVersion.cmake;E:\mongo-c-dirver_VS2019\build\cmake\CCache.cmake;E:\mongo-c-dirver_VS2019\build\cmake\CheckSchedGetCPU.cmake;E:\mongo-c-dirver_VS2019\build\cmake\FindSnappy.cmake;E:\mongo-c-dirver_VS2019\build\cmake\FindUtf8Proc.cmake;E:\mongo-c-dirver_VS2019\build\cmake\GeneratePkgConfig.cmake;E:\mongo-c-dirver_VS2019\build\cmake\GenerateUninstaller.cmake;E:\mongo-c-dirver_VS2019\build\cmake\LegacyPackage.cmake;E:\mongo-c-dirver_VS2019\build\cmake\LoadVersion.cmake;E:\mongo-c-dirver_VS2019\build\cmake\MongoC-Warnings.cmake;E:\mongo-c-dirver_VS2019\build\cmake\MongoPlatform.cmake;E:\mongo-c-dirver_VS2019\build\cmake\MongoSettings.cmake;E:\mongo-c-dirver_VS2019\build\cmake\ParseVersion.cmake;E:\mongo-c-dirver_VS2019\build\cmake\ResSearch.cmake;E:\mongo-c-dirver_VS2019\build\cmake\Sanitizers.cmake;E:\mongo-c-dirver_VS2019\build\cmake\TestFixtures.cmake;E:\mongo-c-dirver_VS2019\build\cmake\libbson-1.0-config.cmake.in;E:\mongo-c-dirver_VS2019\build\cmake\libbson-static-1.0-config.cmake.in;E:\mongo-c-dirver_VS2019\build\cmake\libmongoc-1.0-config.cmake.in;E:\mongo-c-dirver_VS2019\build\cmake\libmongoc-static-1.0-config.cmake.in;E:\mongo-c-dirver_VS2019\build_vs\CMakeFiles\3.30.2\CMakeCCompiler.cmake;E:\mongo-c-dirver_VS2019\build_vs\CMakeFiles\3.30.2\CMakeCXXCompiler.cmake;E:\mongo-c-dirver_VS2019\build_vs\CMakeFiles\3.30.2\CMakeRCCompiler.cmake;E:\mongo-c-dirver_VS2019\build_vs\CMakeFiles\3.30.2\CMakeSystem.cmake;E:\mongo-c-dirver_VS2019\build_vs\_eval.tmp.cmake;E:\mongo-c-dirver_VS2019\build_vs\src\libbson\_eval.tmp.cmake;E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\_eval.tmp.cmake;E:\mongo-c-dirver_VS2019\src\CMakeLists.txt;E:\mongo-c-dirver_VS2019\src\common\CMakeLists.txt;E:\mongo-c-dirver_VS2019\src\common\common-config.h.in;E:\mongo-c-dirver_VS2019\src\libbson\CMakeLists.txt;E:\mongo-c-dirver_VS2019\src\libbson\libbson.rc.in;E:\mongo-c-dirver_VS2019\src\libbson\src\bson-config.cmake;E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-config.h.in;E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-version.h.in;E:\mongo-c-dirver_VS2019\src\libmongoc\CMakeLists.txt;E:\mongo-c-dirver_VS2019\src\libmongoc\libmongoc.rc.in;E:\mongo-c-dirver_VS2019\src\libmongoc\src\libmongoc-ssl-1.0.pc.in;E:\mongo-c-dirver_VS2019\src\libmongoc\src\mongoc-config.cmake;E:\mongo-c-dirver_VS2019\src\libmongoc\src\mongoc\mongoc-config.h.in;E:\mongo-c-dirver_VS2019\src\libmongoc\src\mongoc\mongoc-version.h.in;E:\mongo-c-dirver_VS2019\src\zlib-1.3.1\zconf.h.in;E:\mongo-c-dirver_VS2019\build_vs\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\mongo-c-dirver_VS2019\build_vs\CMakeFiles\generate.stamp;E:\mongo-c-dirver_VS2019\build_vs\src\common\CMakeFiles\generate.stamp;E:\mongo-c-dirver_VS2019\build_vs\src\libbson\CMakeFiles\generate.stamp;E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\CMakeFiles\generate.stamp;E:\mongo-c-dirver_VS2019\build_vs\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\CMake\bin\cmake.exe -SE:/mongo-c-dirver_VS2019 -BE:/mongo-c-dirver_VS2019/build_vs --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/mongo-c-dirver_VS2019/build_vs/mongo-c-driver.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CMake\share\cmake-3.30\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\CMake\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeDependentOption.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;D:\CMake\share\cmake-3.30\Modules\CMakePushCheckState.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.30\Modules\CPack.cmake;D:\CMake\share\cmake-3.30\Modules\CPackComponent.cmake;D:\CMake\share\cmake-3.30\Modules\CTest.cmake;D:\CMake\share\cmake-3.30\Modules\CTestTargets.cmake;D:\CMake\share\cmake-3.30\Modules\CTestUseLaunchers.cmake;D:\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckCXXSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckFunctionExists.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFileCXX.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckLanguage.cmake;D:\CMake\share\cmake-3.30\Modules\CheckLibraryExists.cmake;D:\CMake\share\cmake-3.30\Modules\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckStructHasMember.cmake;D:\CMake\share\cmake-3.30\Modules\CheckSymbolExists.cmake;D:\CMake\share\cmake-3.30\Modules\CheckTypeSize.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\DartConfiguration.tcl.in;D:\CMake\share\cmake-3.30\Modules\FeatureSummary.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.30\Modules\FindPkgConfig.cmake;D:\CMake\share\cmake-3.30\Modules\FindPython.cmake;D:\CMake\share\cmake-3.30\Modules\FindPython\Support.cmake;D:\CMake\share\cmake-3.30\Modules\FindPython3.cmake;D:\CMake\share\cmake-3.30\Modules\FindThreads.cmake;D:\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;D:\CMake\share\cmake-3.30\Modules\InstallRequiredSystemLibraries.cmake;D:\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.30\Modules\TestBigEndian.cmake;D:\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;D:\CMake\share\cmake-3.30\Templates\CPackConfig.cmake.in;E:\mongo-c-dirver_VS2019\CMakeLists.txt;E:\mongo-c-dirver_VS2019\build\cmake\BuildVersion.cmake;E:\mongo-c-dirver_VS2019\build\cmake\CCache.cmake;E:\mongo-c-dirver_VS2019\build\cmake\CheckSchedGetCPU.cmake;E:\mongo-c-dirver_VS2019\build\cmake\FindSnappy.cmake;E:\mongo-c-dirver_VS2019\build\cmake\FindUtf8Proc.cmake;E:\mongo-c-dirver_VS2019\build\cmake\GeneratePkgConfig.cmake;E:\mongo-c-dirver_VS2019\build\cmake\GenerateUninstaller.cmake;E:\mongo-c-dirver_VS2019\build\cmake\LegacyPackage.cmake;E:\mongo-c-dirver_VS2019\build\cmake\LoadVersion.cmake;E:\mongo-c-dirver_VS2019\build\cmake\MongoC-Warnings.cmake;E:\mongo-c-dirver_VS2019\build\cmake\MongoPlatform.cmake;E:\mongo-c-dirver_VS2019\build\cmake\MongoSettings.cmake;E:\mongo-c-dirver_VS2019\build\cmake\ParseVersion.cmake;E:\mongo-c-dirver_VS2019\build\cmake\ResSearch.cmake;E:\mongo-c-dirver_VS2019\build\cmake\Sanitizers.cmake;E:\mongo-c-dirver_VS2019\build\cmake\TestFixtures.cmake;E:\mongo-c-dirver_VS2019\build\cmake\libbson-1.0-config.cmake.in;E:\mongo-c-dirver_VS2019\build\cmake\libbson-static-1.0-config.cmake.in;E:\mongo-c-dirver_VS2019\build\cmake\libmongoc-1.0-config.cmake.in;E:\mongo-c-dirver_VS2019\build\cmake\libmongoc-static-1.0-config.cmake.in;E:\mongo-c-dirver_VS2019\build_vs\CMakeFiles\3.30.2\CMakeCCompiler.cmake;E:\mongo-c-dirver_VS2019\build_vs\CMakeFiles\3.30.2\CMakeCXXCompiler.cmake;E:\mongo-c-dirver_VS2019\build_vs\CMakeFiles\3.30.2\CMakeRCCompiler.cmake;E:\mongo-c-dirver_VS2019\build_vs\CMakeFiles\3.30.2\CMakeSystem.cmake;E:\mongo-c-dirver_VS2019\build_vs\_eval.tmp.cmake;E:\mongo-c-dirver_VS2019\build_vs\src\libbson\_eval.tmp.cmake;E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\_eval.tmp.cmake;E:\mongo-c-dirver_VS2019\src\CMakeLists.txt;E:\mongo-c-dirver_VS2019\src\common\CMakeLists.txt;E:\mongo-c-dirver_VS2019\src\common\common-config.h.in;E:\mongo-c-dirver_VS2019\src\libbson\CMakeLists.txt;E:\mongo-c-dirver_VS2019\src\libbson\libbson.rc.in;E:\mongo-c-dirver_VS2019\src\libbson\src\bson-config.cmake;E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-config.h.in;E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-version.h.in;E:\mongo-c-dirver_VS2019\src\libmongoc\CMakeLists.txt;E:\mongo-c-dirver_VS2019\src\libmongoc\libmongoc.rc.in;E:\mongo-c-dirver_VS2019\src\libmongoc\src\libmongoc-ssl-1.0.pc.in;E:\mongo-c-dirver_VS2019\src\libmongoc\src\mongoc-config.cmake;E:\mongo-c-dirver_VS2019\src\libmongoc\src\mongoc\mongoc-config.h.in;E:\mongo-c-dirver_VS2019\src\libmongoc\src\mongoc\mongoc-version.h.in;E:\mongo-c-dirver_VS2019\src\zlib-1.3.1\zconf.h.in;E:\mongo-c-dirver_VS2019\build_vs\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\mongo-c-dirver_VS2019\build_vs\CMakeFiles\generate.stamp;E:\mongo-c-dirver_VS2019\build_vs\src\common\CMakeFiles\generate.stamp;E:\mongo-c-dirver_VS2019\build_vs\src\libbson\CMakeFiles\generate.stamp;E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\CMakeFiles\generate.stamp;E:\mongo-c-dirver_VS2019\build_vs\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\CMake\bin\cmake.exe -SE:/mongo-c-dirver_VS2019 -BE:/mongo-c-dirver_VS2019/build_vs --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/mongo-c-dirver_VS2019/build_vs/mongo-c-driver.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CMake\share\cmake-3.30\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\CMake\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeDependentOption.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;D:\CMake\share\cmake-3.30\Modules\CMakePushCheckState.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.30\Modules\CPack.cmake;D:\CMake\share\cmake-3.30\Modules\CPackComponent.cmake;D:\CMake\share\cmake-3.30\Modules\CTest.cmake;D:\CMake\share\cmake-3.30\Modules\CTestTargets.cmake;D:\CMake\share\cmake-3.30\Modules\CTestUseLaunchers.cmake;D:\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckCXXSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckFunctionExists.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFileCXX.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckLanguage.cmake;D:\CMake\share\cmake-3.30\Modules\CheckLibraryExists.cmake;D:\CMake\share\cmake-3.30\Modules\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckStructHasMember.cmake;D:\CMake\share\cmake-3.30\Modules\CheckSymbolExists.cmake;D:\CMake\share\cmake-3.30\Modules\CheckTypeSize.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\DartConfiguration.tcl.in;D:\CMake\share\cmake-3.30\Modules\FeatureSummary.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.30\Modules\FindPkgConfig.cmake;D:\CMake\share\cmake-3.30\Modules\FindPython.cmake;D:\CMake\share\cmake-3.30\Modules\FindPython\Support.cmake;D:\CMake\share\cmake-3.30\Modules\FindPython3.cmake;D:\CMake\share\cmake-3.30\Modules\FindThreads.cmake;D:\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;D:\CMake\share\cmake-3.30\Modules\InstallRequiredSystemLibraries.cmake;D:\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.30\Modules\TestBigEndian.cmake;D:\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;D:\CMake\share\cmake-3.30\Templates\CPackConfig.cmake.in;E:\mongo-c-dirver_VS2019\CMakeLists.txt;E:\mongo-c-dirver_VS2019\build\cmake\BuildVersion.cmake;E:\mongo-c-dirver_VS2019\build\cmake\CCache.cmake;E:\mongo-c-dirver_VS2019\build\cmake\CheckSchedGetCPU.cmake;E:\mongo-c-dirver_VS2019\build\cmake\FindSnappy.cmake;E:\mongo-c-dirver_VS2019\build\cmake\FindUtf8Proc.cmake;E:\mongo-c-dirver_VS2019\build\cmake\GeneratePkgConfig.cmake;E:\mongo-c-dirver_VS2019\build\cmake\GenerateUninstaller.cmake;E:\mongo-c-dirver_VS2019\build\cmake\LegacyPackage.cmake;E:\mongo-c-dirver_VS2019\build\cmake\LoadVersion.cmake;E:\mongo-c-dirver_VS2019\build\cmake\MongoC-Warnings.cmake;E:\mongo-c-dirver_VS2019\build\cmake\MongoPlatform.cmake;E:\mongo-c-dirver_VS2019\build\cmake\MongoSettings.cmake;E:\mongo-c-dirver_VS2019\build\cmake\ParseVersion.cmake;E:\mongo-c-dirver_VS2019\build\cmake\ResSearch.cmake;E:\mongo-c-dirver_VS2019\build\cmake\Sanitizers.cmake;E:\mongo-c-dirver_VS2019\build\cmake\TestFixtures.cmake;E:\mongo-c-dirver_VS2019\build\cmake\libbson-1.0-config.cmake.in;E:\mongo-c-dirver_VS2019\build\cmake\libbson-static-1.0-config.cmake.in;E:\mongo-c-dirver_VS2019\build\cmake\libmongoc-1.0-config.cmake.in;E:\mongo-c-dirver_VS2019\build\cmake\libmongoc-static-1.0-config.cmake.in;E:\mongo-c-dirver_VS2019\build_vs\CMakeFiles\3.30.2\CMakeCCompiler.cmake;E:\mongo-c-dirver_VS2019\build_vs\CMakeFiles\3.30.2\CMakeCXXCompiler.cmake;E:\mongo-c-dirver_VS2019\build_vs\CMakeFiles\3.30.2\CMakeRCCompiler.cmake;E:\mongo-c-dirver_VS2019\build_vs\CMakeFiles\3.30.2\CMakeSystem.cmake;E:\mongo-c-dirver_VS2019\build_vs\_eval.tmp.cmake;E:\mongo-c-dirver_VS2019\build_vs\src\libbson\_eval.tmp.cmake;E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\_eval.tmp.cmake;E:\mongo-c-dirver_VS2019\src\CMakeLists.txt;E:\mongo-c-dirver_VS2019\src\common\CMakeLists.txt;E:\mongo-c-dirver_VS2019\src\common\common-config.h.in;E:\mongo-c-dirver_VS2019\src\libbson\CMakeLists.txt;E:\mongo-c-dirver_VS2019\src\libbson\libbson.rc.in;E:\mongo-c-dirver_VS2019\src\libbson\src\bson-config.cmake;E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-config.h.in;E:\mongo-c-dirver_VS2019\src\libbson\src\bson\bson-version.h.in;E:\mongo-c-dirver_VS2019\src\libmongoc\CMakeLists.txt;E:\mongo-c-dirver_VS2019\src\libmongoc\libmongoc.rc.in;E:\mongo-c-dirver_VS2019\src\libmongoc\src\libmongoc-ssl-1.0.pc.in;E:\mongo-c-dirver_VS2019\src\libmongoc\src\mongoc-config.cmake;E:\mongo-c-dirver_VS2019\src\libmongoc\src\mongoc\mongoc-config.h.in;E:\mongo-c-dirver_VS2019\src\libmongoc\src\mongoc\mongoc-version.h.in;E:\mongo-c-dirver_VS2019\src\zlib-1.3.1\zconf.h.in;E:\mongo-c-dirver_VS2019\build_vs\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\mongo-c-dirver_VS2019\build_vs\CMakeFiles\generate.stamp;E:\mongo-c-dirver_VS2019\build_vs\src\common\CMakeFiles\generate.stamp;E:\mongo-c-dirver_VS2019\build_vs\src\libbson\CMakeFiles\generate.stamp;E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\CMakeFiles\generate.stamp;E:\mongo-c-dirver_VS2019\build_vs\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
