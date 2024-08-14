@@ -137,6 +137,9 @@
       <FullPath>E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\Debug\mongoc-tail.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
+      <FullPath>E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\Debug\test-atlas-executor.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
       <FullPath>E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\Debug\test-awsauth.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
@@ -144,6 +147,9 @@
     </ProjectOutput>
     <ProjectOutput>
       <FullPath>E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\Debug\test-gcpkms.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\Debug\test-libmongoc.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
       <FullPath>E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\Debug\test-mongoc-cache.exe</FullPath>
