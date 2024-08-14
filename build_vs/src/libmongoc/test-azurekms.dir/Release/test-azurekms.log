@@ -1,9 +1,0 @@
-﻿  Building Custom Rule E:/mongo-c-dirver_VS2019/src/libmongoc/CMakeLists.txt
-  test-azurekms.c
-E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\src\mongoc\mongoc-config.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\src\mongoc\mongoc-config.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\src\mongoc\mongoc-config.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\src\mongoc\mongoc-config.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\src\mongoc\mongoc-config.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\src\mongoc\mongoc-config.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-  test-azurekms.vcxproj -> E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\Release\test-azurekms.exe
