@@ -1,0 +1,19 @@
+﻿  Building Custom Rule E:/mongo-c-dirver_VS2019/src/libmongoc/CMakeLists.txt
+cl : 命令行 warning D9025: 正在重写“/W1”(用“/w”)
+  adler32.c
+  crc32.c
+  deflate.c
+  infback.c
+  inffast.c
+  inflate.c
+  inftrees.c
+  trees.c
+  zutil.c
+  compress.c
+  uncompr.c
+  gzclose.c
+  gzlib.c
+  gzread.c
+  gzwrite.c
+  正在生成代码...
+  zlib_obj.vcxproj -> E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\zlib_obj.dir\Release\zlib_obj.lib

@@ -1,0 +1,3 @@
+﻿  Building Custom Rule E:/mongo-c-dirver_VS2019/src/libmongoc/CMakeLists.txt
+  test-mongoc-cache.c
+  test-mongoc-cache.vcxproj -> E:\mongo-c-dirver_VS2019\build_vs\src\libmongoc\Release\test-mongoc-cache.exe
